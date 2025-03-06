@@ -49,3 +49,4 @@
     - **用途**：用于DANE（DNS-based Authentication of Named Entities），将TLS/SSL证书信息存储在DNS中。
     - **例子**：`_443._tcp.example.com` -> `3 0 1 9a8df1b3f6c0...`
     - **使用场景**：用于增强TLS连接的安全性，确保TLS证书与DNS记录匹配。
+
