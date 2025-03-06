@@ -1,4 +1,4 @@
-### 最近买了一个域名挂载在cf大善人上，在配置的时候对各种记录不大理解。经查询，特此记录。
+### 最近买了一个域名挂载在cf大善人上，在配置的时候对各种主要DNS记录不大理解。经查询，特此记录。
 
 ### 1. **A记录 (Address Record)**
    - **用途**：将域名解析为IPv4地址。
@@ -46,7 +46,6 @@
    - **使用场景**：主要用于电子邮件服务器的反向解析，确保发件IP地址有匹配的域名。
 
 ### 10. **TLSA记录 (Transport Layer Security Authentication Record)**
-    - **用途**：用于DANE（DNS-based Authentication of Named Entities），将TLS/SSL证书信息存储在DNS中。
-    - **例子**：`_443._tcp.example.com` -> `3 0 1 9a8df1b3f6c0...`
-    - **使用场景**：用于增强TLS连接的安全性，确保TLS证书与DNS记录匹配。
-
+   - **用途**：用于DANE（DNS-based Authentication of Na med Entities），将TLS/SSLs证书信息存储在DNS中。
+   - **例子**：`_443._tcp.example.com` -> `3 0 1 9a8df1b3f6c0...`
+   - **使用场景**：用于增强TLS连接的安全性，确保TLS证书与DNS记录匹配。
