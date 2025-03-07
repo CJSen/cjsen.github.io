@@ -1,4 +1,4 @@
-# chjs's blog :link: https://cjsen.github.io 
+# chjs's blog :link: https://blog.936668.xyz
 ### :page_facing_up: [2](https://cjsen.github.io/tag.html) 
 ### :speech_balloon: 0 
 ### :hibiscus: 1941 
