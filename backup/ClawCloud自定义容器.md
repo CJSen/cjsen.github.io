@@ -7,7 +7,9 @@
 
 - **自定义 uv Python 环境**：内置 uv、uvx，支持现代 Python 包管理和虚拟环境。
 - **WebSSH 自启动**：容器启动后自动运行 WebSSH，便于通过网页安全连接终端。
-- **dufs 文件上传**：集成 dufs，支持通过网页上传/下载文件，提升文件管理效率。
+- **dufs 文件上传**：集成 dufs，支持通过网页上传/下载
+
+文件，提升文件管理效率。
 - **supervisord 管理**：集成 supervisord，可同时管理多个服务，如 WebSSH、dufs 等。
 - **vim，ping，ifconfig**：安装了 vim，ping，ifconfig 等常用命令
 
@@ -22,21 +24,28 @@
    - 端口开放 5000（dufs）和 8888（webssh），并打开 "Enable Internet Access" 按钮。
    - 挂载 /root 目录，大小自己调整。
    - 点击右上角 "deploy application"，等待容器启动(可能会超时，镜像比较大，没关系，直接返回在点进来就好了)
-   ![alt text](https://github.com/CJSen/club/blob/main/static/photos/deploy.png)
+   
+<img width="1364" alt="Image" src="https://github.com/user-attachments/assets/6a11e981-94bf-49a1-8dc3-1f252499a51a" />
   
 
 2. **访问服务**：
-   ![alt text](https://github.com/CJSen/club/blob/main/static/photos/network.png)
+
+<img width="1000" alt="Image" src="https://github.com/user-attachments/assets/391c37c5-da7c-4983-8963-2d53f8bfe8ed" />
+
    访问面板，点击对应的 public address，即可访问服务。
    - webssh：
       - hostname: localhost
       - username:club
       - password:123456
-      ![alt text](https://github.com/CJSen/club/blob/main/static/photos/webssh.png)
+
+<img width="490" alt="Image" src="https://github.com/user-attachments/assets/30c89503-28d3-41f4-b41c-2e0c55551a63" />
+
    - dufs：
       - username:club
       - password:123456
-      ![alt text](https://github.com/CJSen/club/blob/main/static/photos/dufs.png)
+
+<img width="500" alt="Image" src="https://github.com/user-attachments/assets/0dd5e136-c80c-4918-b5b2-3ca11bce27ec" />
+
 
 ## 安全提醒（务必阅读）
 
