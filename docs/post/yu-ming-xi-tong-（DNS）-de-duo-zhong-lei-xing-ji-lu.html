@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html data-color-mode="light" data-dark-theme="dark" data-light-theme="light" lang="zh-CN">
+<html data-color-mode="light" data-dark-theme="dark_colorblind" data-light-theme="light" lang="zh-CN">
 <head>
     <meta content="text/html; charset=utf-8" http-equiv="content-type" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link href='https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/Primer/21.0.7/primer.css' rel='stylesheet' />
-    <script src='https://blog.meekdai.com/Gmeek/plugins/GmeekBSZ.js'></script>
-    <link rel="icon" href="https://avatars.githubusercontent.com/u/48038717?v=4"><script>
+    <script src='https://blog.meekdai.com/Gmeek/plugins/GmeekVercount.js'></script>
+    <link rel="icon" href="https://blog.936668.xyz/chjsblog-favicon.jpg"><script>
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
     </script>
@@ -14,7 +14,7 @@
 <meta property="og:title" content="域名系统（DNS）的多种类型记录">
 <meta property="og:description" content="### 最近买了一个域名挂载在cf大善人上，在配置的时候对各种主要DNS记录不大理解。">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://cjsen.github.io/post/yu-ming-xi-tong-%EF%BC%88DNS%EF%BC%89-de-duo-zhong-lei-xing-ji-lu.html">
+<meta property="og:url" content="https://blog.936668.xyz/post/yu-ming-xi-tong-%EF%BC%88DNS%EF%BC%89-de-duo-zhong-lei-xing-ji-lu.html">
 <meta property="og:image" content="https://avatars.githubusercontent.com/u/48038717?v=4">
 <title>域名系统（DNS）的多种类型记录</title>
 
@@ -51,7 +51,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
     <div id="header">
 <h1 class="postTitle">域名系统（DNS）的多种类型记录</h1>
 <div class="title-right">
-    <a href="https://cjsen.github.io" id="buttonHome" class="btn btn-invisible circle" title="首页">
+    <a href="https://blog.936668.xyz" id="buttonHome" class="btn btn-invisible circle" title="首页">
         <svg class="octicon" width="16" height="16">
             <path id="pathHome" fill-rule="evenodd"></path>
         </svg>
@@ -134,13 +134,13 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <li><strong>例子</strong>：<code class="notranslate">_443._tcp.example.com</code> -&gt; <code class="notranslate">3 0 1 9a8df1b3f6c0...</code></li>
 <li><strong>使用场景</strong>：用于增强TLS连接的安全性，确保TLS证书与DNS记录匹配。</li>
 </ul></div>
-<div style="font-size:small;margin-top:8px;float:right;"></div>
+<div style="font-size:small;margin-top:8px;float:right;">❤️ 转载文章请注明出处，谢谢！❤️</div>
 
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
 <div class="comments" id="comments"></div>
 
 </div>
-    <div id="footer"><div id="footer1">Copyright © <span id="copyrightYear"></span> <a href="https://cjsen.github.io">chjs's blog</a></div>
+    <div id="footer"><div id="footer1">Copyright © <span id="copyrightYear"></span> <a href="https://blog.936668.xyz">chjs's blog</a></div>
 <div id="footer2">
     <span id="runday"></span><span>Powered by <a href="https://meekdai.com/Gmeek.html" target="_blank">Gmeek</a></span>
 </div>
@@ -149,8 +149,8 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 var now=new Date();
 document.getElementById("copyrightYear").innerHTML=now.getFullYear();
 
-if(""!=""){
-    var startSite=new Date("");
+if("03/23/20123"!=""){
+    var startSite=new Date("03/23/20123");
     var diff=now.getTime()-startSite.getTime();
     var diffDay=Math.floor(diff/(1000*60*60*24));
     document.getElementById("runday").innerHTML="网站运行"+diffDay+"天"+" • ";
