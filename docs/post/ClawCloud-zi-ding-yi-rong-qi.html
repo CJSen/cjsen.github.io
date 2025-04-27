@@ -94,16 +94,14 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <ul>
 <li><strong>自定义 uv Python 环境</strong>：内置 uv、uvx，支持现代 Python 包管理和虚拟环境。</li>
 <li><strong>WebSSH 自启动</strong>：容器启动后自动运行 WebSSH，便于通过网页安全连接终端。</li>
-<li><strong>dufs 文件上传</strong>：集成 dufs，支持通过网页上传/下载</li>
-</ul>
-<p>文件，提升文件管理效率。</p>
-<ul>
+<li><strong>dufs 文件上传</strong>：集成 dufs，支持通过网页上传/下载文件，提升文件管理效率。</li>
 <li><strong>supervisord 管理</strong>：集成 supervisord，可同时管理多个服务，如 WebSSH、dufs 等。</li>
 <li><strong>vim，ping，ifconfig</strong>：安装了 vim，ping，ifconfig 等常用命令</li>
 </ul>
 <h2>快速开始</h2>
 <ol>
-<li><strong>clawcloud镜像运行</strong>：
+<li>
+<p><strong>clawcloud镜像运行</strong>：</p>
 <ul>
 <li>创建 app，名称随意，镜像按照图上步骤进行创建。</li>
 </ul>
@@ -111,48 +109,50 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <ul>
 <li>CPU 和内存根据自身需求调整，按照图上来的话，每天的费用大概在 $0.05/day。每月五美元完全够用。</li>
 <li>端口开放 5000（dufs）和 8888（webssh），并打开 "Enable Internet Access" 按钮。</li>
-<li>挂载 /root 目录，大小自己调整。</li>
-<li>点击右上角 "deploy application"，等待容器启动(可能会超时，镜像比较大，没关系，直接返回在点进来就好了)</li>
+<li>挂载 /root 目录(必须)，大小自己调整。</li>
+<li>点击右上角 "deploy application"，等待容器启动(可能会超时，镜像比较大，没关系，直接返回在点进来就好了)<br>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/CJSen/club/refs/heads/main/static/photos/deploy.png"><img src="https://raw.githubusercontent.com/CJSen/club/refs/heads/main/static/photos/deploy.png" alt="alt text" style="max-width: 100%;"></a></li>
 </ul>
 </li>
-</ol>
-<p><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/6a11e981-94bf-49a1-8dc3-1f252499a51a"><img width="1364" alt="Image" src="https://github.com/user-attachments/assets/6a11e981-94bf-49a1-8dc3-1f252499a51a" style="max-width: 100%;"></a></p>
-<ol start="2">
-<li><strong>访问服务</strong>：</li>
-</ol>
-<p><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/391c37c5-da7c-4983-8963-2d53f8bfe8ed"><img width="1000" alt="Image" src="https://github.com/user-attachments/assets/391c37c5-da7c-4983-8963-2d53f8bfe8ed" style="max-width: 100%;"></a></p>
-<p>访问面板，点击对应的 public address，即可访问服务。</p>
+<li>
+<p><strong>访问服务</strong>：<br>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/CJSen/club/refs/heads/main/static/photos/network.png"><img src="https://raw.githubusercontent.com/CJSen/club/refs/heads/main/static/photos/network.png" alt="alt text" style="max-width: 100%;"></a><br>
+访问面板，点击对应的 public address，即可访问服务。</p>
 <ul>
 <li>webssh：
 <ul>
 <li>hostname: localhost</li>
 <li>username:club</li>
-<li>password:123456</li>
+<li>password:123456<br>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/CJSen/club/refs/heads/main/static/photos/webssh.png"><img src="https://raw.githubusercontent.com/CJSen/club/refs/heads/main/static/photos/webssh.png" alt="alt text" style="max-width: 100%;"></a></li>
 </ul>
 </li>
-</ul>
-<p><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/30c89503-28d3-41f4-b41c-2e0c55551a63"><img width="490" alt="Image" src="https://github.com/user-attachments/assets/30c89503-28d3-41f4-b41c-2e0c55551a63" style="max-width: 100%;"></a></p>
-<ul>
 <li>dufs：
 <ul>
 <li>username:club</li>
-<li>password:123456</li>
+<li>password:123456<br>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/CJSen/club/refs/heads/main/static/photos/dufs.png"><img src="https://raw.githubusercontent.com/CJSen/club/refs/heads/main/static/photos/dufs.png" alt="alt text" style="max-width: 100%;"></a></li>
 </ul>
 </li>
 </ul>
-<p><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/0dd5e136-c80c-4918-b5b2-3ca11bce27ec"><img width="500" alt="Image" src="https://github.com/user-attachments/assets/0dd5e136-c80c-4918-b5b2-3ca11bce27ec" style="max-width: 100%;"></a></p>
+</li>
+</ol>
 <h2>安全提醒（务必阅读）</h2>
 <p><strong>首次启动后，请务必立即完成以下操作：</strong></p>
 <ol>
 <li>
 <p><strong>修改系统用户 club 的密码</strong><br>
 进入容器后执行：</p>
-<div class="highlight highlight-source-shell"><pre class="notranslate">passwd club</pre></div>
+<div class="highlight highlight-source-shell"><pre class="notranslate">password=<span class="pl-s"><span class="pl-pds">"</span>your-new-password<span class="pl-pds">"</span></span> <span class="pl-k">&amp;&amp;</span> <span class="pl-c1">echo</span> <span class="pl-s"><span class="pl-pds">"</span><span class="pl-smi">$password</span><span class="pl-pds">"</span></span> <span class="pl-k">|</span> sudo tee /root/init/.club <span class="pl-k">&gt;</span> /dev/null <span class="pl-k">&amp;&amp;</span> <span class="pl-c1">echo</span> <span class="pl-s"><span class="pl-pds">"</span>club:<span class="pl-smi">$password</span><span class="pl-pds">"</span></span> <span class="pl-k">|</span> sudo chpasswd</pre></div>
 </li>
 <li>
 <p><strong>修改 dufs 的访问密码</strong><br>
-dufs 默认密码为弱密码，请及时在 <code class="notranslate">supervisord.conf</code> 或相关配置中更改为强密码，并重启服务。</p>
-<div class="highlight highlight-source-shell"><pre class="notranslate">sudo supervisorctl restart dufs</pre></div>
+dufs 默认密码为弱密码，请及时在 <code class="notranslate">/root/supervisord/supervisord.conf</code> 配置中更改为强密码，并重启服务。</p>
+<div class="highlight highlight-source-shell"><pre class="notranslate">sudo sed -i <span class="pl-s"><span class="pl-pds">'</span>s/club:[^@]*@/club:your-new-password@/<span class="pl-pds">'</span></span> /root/supervisord/supervisord.conf <span class="pl-k">&amp;&amp;</span> sudo supervisorctl reread <span class="pl-k">&amp;&amp;</span> sudo supervisorctl update</pre></div>
+</li>
+<li>
+<p><strong>重启你的应用</strong><br>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/CJSen/club/refs/heads/main/static/photos/restart.png"><img src="https://raw.githubusercontent.com/CJSen/club/refs/heads/main/static/photos/restart.png" alt="alt text" style="max-width: 100%;"></a></p>
 </li>
 </ol>
 <h2>目录结构</h2>
