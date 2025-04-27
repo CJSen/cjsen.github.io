@@ -1,8 +1,19 @@
 {
     "title":"chjs's blog",
-    "subTitle":"chjs的个人小站",
+    "subTitle":"chjs的个人小站:但行好事，莫问前程",
+    "homeUrl":"https://blog.936668.xyz",
     "avatarUrl":"https://avatars.githubusercontent.com/u/48038717?v=4",
-    "GMEEK_VERSION":"last",
+    "faviconUrl":"https://blog.936668.xyz/chjsblog-favicon.jpg",
+    "singlePage":["link","about"],
+    "startSite":"03/23/20123",
+    "onePageListNum":15,
+    "commentLabelColor":"#006b75",
+    "yearColorList":["#bc4c00", "#0969da", "#1f883d", "#A333D0"],
+    "i18n":"CN",
+    "nightTheme":"dark_colorblind",
+    "bottomText":"❤️ 转载文章请注明出处，谢谢！❤️",
     "script":"<script src='https://blog.meekdai.com/Gmeek/plugins/GmeekTOC.js'></script><script src='https://blog.meekdai.com/Gmeek/plugins/lightbox.js'></script>",
-    "allHead":"<script src='https://blog.meekdai.com/Gmeek/plugins/GmeekBSZ.js'></script>"
+    "primerCSS":"<link href='https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/Primer/21.0.7/primer.css' rel='stylesheet' />",
+    "allHead":"<script src='https://blog.meekdai.com/Gmeek/plugins/GmeekVercount.js'></script>",
+    "GMEEK_VERSION":"last"
 }
