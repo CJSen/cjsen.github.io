@@ -1,1 +1,0 @@
-test-qwen3-mcp
