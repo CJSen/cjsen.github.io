@@ -57,7 +57,7 @@ jobs:
           
       - name: Copy google verification file to docs
         run: |
-          cp google*.html /opt/Gmeek/docs/
+          cp google*.html docs/
           
       - name: update html
         run: |
