@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>chjs's blog</title><link>https://blog.936668.xyz</link><description>chjs的个人小站--但行好事，莫问前程</description><copyright>chjs's blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/48038717?v=4</url><title>avatar</title><link>https://blog.936668.xyz</link></image><lastBuildDate>Tue, 24 Jun 2025 17:09:36 +0000</lastBuildDate><managingEditor>chjs's blog</managingEditor><ttl>60</ttl><webMaster>chjs's blog</webMaster><item><title>astrbot_plugin_daliy_60s_news：让群聊每天 60 秒掌握新鲜资讯的群聊插件</title><link>https://blog.936668.xyz/post/23.html</link><description>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>chjs's blog</title><link>https://blog.936668.xyz</link><description>chjs的个人小站--但行好事，莫问前程</description><copyright>chjs's blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/48038717?v=4</url><title>avatar</title><link>https://blog.936668.xyz</link></image><lastBuildDate>Tue, 24 Jun 2025 17:18:13 +0000</lastBuildDate><managingEditor>chjs's blog</managingEditor><ttl>60</ttl><webMaster>chjs's blog</webMaster><item><title>astrbot_plugin_daliy_60s_news：让群聊每天 60 秒掌握新鲜资讯的群聊插件</title><link>https://blog.936668.xyz/post/23.html</link><description>
 
 &gt; 记录一次为 AstrBot 写插件的经历，顺便安利下这个自动推送新闻的小工具
 
@@ -168,4 +168,286 @@ Use &lt;span class="pl-s"&gt;&lt;span class="pl-pds"&gt;"&lt;/span&gt;lsx [comma
 &lt;h2&gt;最后&lt;/h2&gt;
 &lt;p&gt;再次感谢L站佬 "hahahaha" 开源了这么一个好用的项目！&lt;/p&gt;
 &lt;p&gt;这个小改版如果对你有用，欢迎给我和原项目都点个 star～&lt;br&gt;
-有建议欢迎提 issue 或直接来个 PR，一起完善～&lt;/p&gt;</content:encoded><guid isPermaLink="true">https://blog.936668.xyz/post/21.html</guid><pubDate>Tue, 13 May 2025 10:38:31 +0000</pubDate></item></channel></rss>
+有建议欢迎提 issue 或直接来个 PR，一起完善～&lt;/p&gt;</content:encoded><guid isPermaLink="true">https://blog.936668.xyz/post/21.html</guid><pubDate>Tue, 13 May 2025 10:38:31 +0000</pubDate></item><item><title>基于cmliu仓库使用pyinstaller打包的webssh可执行文件</title><link>https://blog.936668.xyz/post/20.html</link><description>白嫖了几台小云服务器，但是苦于有些是ipv6-only，有些国内难连接，所以在机器上部署了webssh以供使用。</description><content:encoded>&lt;p&gt;白嫖了几台小云服务器，但是苦于有些是ipv6-only，有些国内难连接，所以在机器上部署了webssh以供使用。&lt;br&gt;
+但是几台小服务器的架构都比较少见，尤其是serv00，使用freebsd，大部分工具不提供相关可执行文件下载直接使用。&lt;br&gt;
+所以自己配置环境打包了一份，保存在github上。&lt;a href="https://github.com/CJSen/cm-webssh/releases/tag/v1.0.0"&gt;https://github.com/CJSen/cm-webssh/releases/tag/v1.0.0&lt;/a&gt;&lt;br&gt;
+感谢项目原作者：排名不分先后。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href="https://github.com/cmliu/webssh"&gt;cmliu&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/crazypeace/huashengdun-webssh"&gt;crazypeace&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/huashengdun/webssh"&gt;huashengdun&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/7ee6fff6-2a6a-415e-8036-3a685d525de6"&gt;&lt;img width="1181" alt="Image" src="https://github.com/user-attachments/assets/7ee6fff6-2a6a-415e-8036-3a685d525de6" style="max-width: 100%;"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/a7ac349d-d2d0-44c5-8f97-20e50abd0710"&gt;&lt;img width="1035" alt="Image" src="https://github.com/user-attachments/assets/a7ac349d-d2d0-44c5-8f97-20e50abd0710" style="max-width: 100%;"&gt;&lt;/a&gt;&lt;/p&gt;</content:encoded><guid isPermaLink="true">https://blog.936668.xyz/post/20.html</guid><pubDate>Sat, 03 May 2025 07:56:55 +0000</pubDate></item><item><title>test18-qwen3-4b-mcp</title><link>https://blog.936668.xyz/post/19.html</link><description>test18-qwen3-4b-mcp。</description><content:encoded>&lt;p&gt;test18-qwen3-4b-mcp&lt;/p&gt;</content:encoded><guid isPermaLink="true">https://blog.936668.xyz/post/19.html</guid><pubDate>Fri, 02 May 2025 11:26:27 +0000</pubDate></item><item><title>github 图片炸了？可能是 chrome/edge上的最简单解决方案</title><link>https://blog.936668.xyz/post/18.html</link><description>不是不支持简体中文吗？那直接修改成中文吧。</description><content:encoded>&lt;p&gt;不是不支持简体中文吗？那直接修改成中文吧。。。。。就这么简单。&lt;br&gt;
+右上角添加 “中文”，而不是 “简体中文”，然后点击三个点中文置顶即可。。&lt;br&gt;
+其实只要 “简体中文” 不是第一个就行了。这样不用切成英文，或者下载插件配置规则，影响使用中文浏览器的朋友们。&lt;/p&gt;
+&lt;p&gt;直达链接：&lt;br&gt;
+👉 Chrome复制粘贴到地址栏：chrome://settings/languages&lt;br&gt;
+👉 Edge复制粘贴到地址栏：edge://settings/languages&lt;/p&gt;
+&lt;p&gt;&lt;a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/276bd15e-6cac-4c27-ab77-8b9b197724cf"&gt;&lt;img width="673" alt="Image" src="https://github.com/user-attachments/assets/276bd15e-6cac-4c27-ab77-8b9b197724cf" style="max-width: 100%;"&gt;&lt;/a&gt;&lt;/p&gt;</content:encoded><guid isPermaLink="true">https://blog.936668.xyz/post/18.html</guid><pubDate>Tue, 29 Apr 2025 17:04:57 +0000</pubDate></item><item><title>test17-qwen3-mcp</title><link>https://blog.936668.xyz/post/17.html</link><description>test17-qwen3-mcp。</description><content:encoded>&lt;p&gt;test17-qwen3-mcp&lt;/p&gt;</content:encoded><guid isPermaLink="true">https://blog.936668.xyz/post/17.html</guid><pubDate>Tue, 29 Apr 2025 07:54:55 +0000</pubDate></item><item><title>人会死，但我的博客在GitHub中会万岁--转载</title><link>https://blog.936668.xyz/post/8.html</link><description>转载自Gmeek作者@Meekdai，文章链接：
+[人会死，但我的博客在GitHub中会万岁](https://blog.meekdai.com/post/ren-hui-si-%EF%BC%8C-dan-wo-de-bo-ke-zai-GitHub-zhong-hui-wan-sui.html)
+
+当人类面对时间的无情流逝，我们总是渴望留下一些痕迹，一些思想，一些记忆。</description><content:encoded>&lt;p&gt;转载自Gmeek作者&lt;a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Meekdai/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Meekdai"&gt;@Meekdai&lt;/a&gt;，文章链接：&lt;br&gt;
+&lt;a href="https://blog.meekdai.com/post/ren-hui-si-%EF%BC%8C-dan-wo-de-bo-ke-zai-GitHub-zhong-hui-wan-sui.html" rel="nofollow"&gt;人会死，但我的博客在GitHub中会万岁&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;当人类面对时间的无情流逝，我们总是渴望留下一些痕迹，一些思想，一些记忆。博客，作为一种数字化的表达方式，成为了我们记录自己、分享见解、传承知识的平台。然而，时间也在不断地削弱这些数字化的痕迹，让它们逐渐消失在虚拟的海洋中。&lt;/p&gt;
+&lt;p&gt;最近，我读到了一篇名为 &lt;a href="https://laike9m.com/blog/people-die-but-long-live-github,122/" rel="nofollow"&gt;People Die, but Long Live GitHub&lt;/a&gt; 的文章。这个标题让我陷入了深思。我一直在思考博客的意义和价值。直到我阅读了这篇文章，我才找到了一些答案。&lt;/p&gt;
+&lt;p&gt;一、博客的起源&lt;br&gt;
+我的博客之旅始于多年前的QQ空间。那时，QQ空间也支持一定程度的页面定制化，各种杀马特的装饰与那时流行的非主流个性签名相得益彰，令人惊艳不已。&lt;/p&gt;
+&lt;p&gt;然而，随着时间的流逝，我发现原来还有更多的可能性可以探索。拥有自己的域名，搭建一个自由度更高的个人独立博客成为了我的新目标。于是，我开始尝试着使用WordPress、Typecho、Hexo等各种框架。虽然在更换框架时，有一些可以导出导入的功能，但是不可避免地会出现一些文章和图片丢失的情况。&lt;/p&gt;
+&lt;p&gt;这个过程不仅是技术上的探索与挑战，更是一个个人成长与思想表达的历程。从QQ空间到拥有自己独立域名的博客，我逐渐意识到，在数字世界中，我们可以拥有更多的自由和创造力，去塑造和展示自己的独特风格和观点。因此，尽管在博客之路上曾经遇到过一些挫折，但每一次的尝试和探索都让我更加坚定了继续前行的决心。&lt;/p&gt;
+&lt;p&gt;二、博客的长寿之道&lt;br&gt;
+考虑到个人购买服务器并不是长久之计，我转而关注了GitHub Pages。正如《People Die, but Long Live GitHub》这篇文章所述，如果我们希望存储一段信息，让100年后的人也能够轻松访问，应该采取怎样的策略呢？GitHub Pages提供了一个免费、稳定的托管平台，使你的博客与GitHub的存在时间同步。这意味着，无论是作为个人创作的见证，还是作为技术成果的展示，你的博客都能够以一种更加持久的方式存在，并为未来的读者提供信息与启发。因此，将博客托管于GitHub Pages不仅是一种技术选择，更是一种长寿的智慧之举。&lt;/p&gt;
+&lt;p&gt;三、博客框架Gmeek&lt;br&gt;
+在搭建GitHub Pages上的个人博客框架方面，存在着诸多方法，然而，这些方法在实际应用中常常遇到一些问题，这些问题可以说是使用者的痛点。因此，我开始思考是否有可能开发一个项目，一个能够让用户轻松在GitHub Pages上建立个人博客的工具。于是，Gmeek应运而生。这个项目集合了GitHub Pages、GitHub Issues以及GitHub Actions的功能，其设计理念非常简单——完全依赖于GitHub平台，并力求提供简便易用的操作体验。由于我在前端方面的知识是边学边用，因此所设计的主题可能并不是十分高端，但幸运的是，在Copilot等AI辅助编程工具的帮助下，我还是完成了一个勉强称得上是及格的成品。&lt;/p&gt;
+&lt;p&gt;随着Gmeek的星星数量逐渐增加，越来越多的人开始使用它，一些问题也逐渐浮出水面，同时，也有一些新功能和特性等待添加，这使我深切感受到了开源项目的魅力。更令人惊喜的是，甚至有来自俄罗斯的朋友帮忙翻译了俄语版本。&lt;/p&gt;
+&lt;p&gt;Gmeek不仅仅是一个技术、编程和创造力的角落，更是记录了我在这个数字世界中的思考和探索的纪录。它见证了我在技术领域的成长，也是我与全球开源社区互动的一个载体。通过这个平台，我能够与世界各地的志同道合者分享我的见解、经验和心得，这无疑是一种难以言表的愉悦与满足。&lt;/p&gt;
+&lt;p&gt;四、博客的未来&lt;br&gt;
+虽然没有什么东西是真正永恒的，但我们可以尽力让自己的博客在这个数字时代中存活更久，成为我们留给世界的一份礼物。让我们珍惜这个数字化的痕迹，让它们在 GitHub 中长寿不衰。&lt;/p&gt;</content:encoded><guid isPermaLink="true">https://blog.936668.xyz/post/8.html</guid><pubDate>Sun, 27 Apr 2025 07:45:37 +0000</pubDate></item><item><title>我的一些自托管网站～</title><link>https://blog.936668.xyz/post/7.html</link><description># 我的自托管网站分享
+
+这里记录了一些我自托管的服务，方便自己使用，也欢迎有兴趣的朋友体验。</description><content:encoded>&lt;h1&gt;我的自托管网站分享&lt;/h1&gt;
+&lt;p&gt;这里记录了一些我自托管的服务，方便自己使用，也欢迎有兴趣的朋友体验。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;📖 博客&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://blog.936668.xyz/" rel="nofollow"&gt;博客主页&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;🖥️ WebSSH&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://webssh.936668.xyz/" rel="nofollow"&gt;&lt;del&gt;webssh&lt;/del&gt;&lt;/a&gt; serv00服务器被封啦～&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://clwebssh.936668.xyz/" rel="nofollow"&gt;clwebssh&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://fcwebssh.936668.xyz/" rel="nofollow"&gt;fcwebssh（支持 IPv6）&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;🛠️ 工具&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://it-tools.936668.xyz/" rel="nofollow"&gt;IT Tools&lt;/a&gt; — 在线工具集合&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://gitstars.936668.xyz/" rel="nofollow"&gt;Gitstars&lt;/a&gt; — GitHub Stars 管理器&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://memos.936668.xyz/" rel="nofollow"&gt;Memos&lt;/a&gt; — 开源自托管笔记应用&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://minichat.936668.xyz/" rel="nofollow"&gt;MiniChat&lt;/a&gt; — 开源隐私聊天室&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://gemini-balance.936668.xyz/" rel="nofollow"&gt;Gemini-Balance&lt;/a&gt; -- gemini均衡代理&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://cf-imgbed.936668.xyz/" rel="nofollow"&gt;cf-imgbed&lt;/a&gt; -- 基于cf搭建的图床～&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;🔥 阅后即焚&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://prvcopy.936668.xyz/" rel="nofollow"&gt;PrvCopy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://1tmsg.936668.xyz/" rel="nofollow"&gt;1tmsg&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;</content:encoded><guid isPermaLink="true">https://blog.936668.xyz/post/7.html</guid><pubDate>Sun, 27 Apr 2025 07:27:37 +0000</pubDate></item><item><title>ClawCloud自定义容器</title><link>https://blog.936668.xyz/post/4.html</link><description># ClawCloud 环境说明
+
+在使用 ClawCloud 过程中，发现其使用k8s的pod容器，所以在重启或者其他操作后，会还原系统，而且不能挂载整个“/”目录做持久化，所以搞了一个自用镜像。</description><content:encoded>&lt;h1&gt;ClawCloud 环境说明&lt;/h1&gt;
+&lt;p&gt;在使用 ClawCloud 过程中，发现其使用k8s的pod容器，所以在重启或者其他操作后，会还原系统，而且不能挂载整个“/”目录做持久化，所以搞了一个自用镜像。&lt;br&gt;
+本仓库为 ClawCloud 的application提供一个ubuntu 22.04环境，集成了自定义 uv Python 环境、WebSSH 远程连接和 dufs 文件上传服务，方便使用。&lt;/p&gt;
+&lt;h2&gt;主要功能&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;自定义 uv Python 环境&lt;/strong&gt;：内置 uv、uvx，支持现代 Python 包管理和虚拟环境。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;WebSSH 自启动&lt;/strong&gt;：容器启动后自动运行 WebSSH，便于通过网页安全连接终端。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;dufs 文件上传&lt;/strong&gt;：集成 dufs，支持通过网页上传/下载文件，提升文件管理效率。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;supervisord 管理&lt;/strong&gt;：集成 supervisord，可同时管理多个服务，如 WebSSH、dufs 等。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;vim，ping，ifconfig&lt;/strong&gt;：安装了 vim，ping，ifconfig 等常用命令&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;快速开始&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;clawcloud镜像运行&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;创建 app，名称随意，镜像按照图上步骤进行创建。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight highlight-source-shell"&gt;&lt;pre class="notranslate"&gt;ghcr.io/cjsen/club:latest&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;CPU 和内存根据自身需求调整，按照图上来的话，每天的费用大概在 $0.05/day。每月五美元完全够用。&lt;/li&gt;
+&lt;li&gt;端口开放 5000（dufs）和 8888（webssh），并打开 "Enable Internet Access" 按钮。&lt;/li&gt;
+&lt;li&gt;挂载 /root 目录(必须)，大小自己调整。&lt;/li&gt;
+&lt;li&gt;点击右上角 "deploy application"，等待容器启动(可能会超时，镜像比较大，没关系，直接返回在点进来就好了)&lt;br&gt;
+&lt;a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/CJSen/club/refs/heads/main/static/photos/deploy.png"&gt;&lt;img src="https://raw.githubusercontent.com/CJSen/club/refs/heads/main/static/photos/deploy.png" alt="alt text" style="max-width: 100%;"&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;访问服务&lt;/strong&gt;：&lt;br&gt;
+&lt;a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/CJSen/club/refs/heads/main/static/photos/network.png"&gt;&lt;img src="https://raw.githubusercontent.com/CJSen/club/refs/heads/main/static/photos/network.png" alt="alt text" style="max-width: 100%;"&gt;&lt;/a&gt;&lt;br&gt;
+访问面板，点击对应的 public address，即可访问服务。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;webssh：
+&lt;ul&gt;
+&lt;li&gt;hostname: localhost&lt;/li&gt;
+&lt;li&gt;username:club&lt;/li&gt;
+&lt;li&gt;password:123456&lt;br&gt;
+&lt;a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/CJSen/club/refs/heads/main/static/photos/webssh.png"&gt;&lt;img src="https://raw.githubusercontent.com/CJSen/club/refs/heads/main/static/photos/webssh.png" alt="alt text" style="max-width: 100%;"&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;dufs：
+&lt;ul&gt;
+&lt;li&gt;username:club&lt;/li&gt;
+&lt;li&gt;password:123456&lt;br&gt;
+&lt;a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/CJSen/club/refs/heads/main/static/photos/dufs.png"&gt;&lt;img src="https://raw.githubusercontent.com/CJSen/club/refs/heads/main/static/photos/dufs.png" alt="alt text" style="max-width: 100%;"&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;安全提醒（务必阅读）&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;首次启动后，请务必立即完成以下操作：&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;修改系统用户 club 的密码&lt;/strong&gt;&lt;br&gt;
+进入容器后执行：&lt;/p&gt;
+&lt;div class="highlight highlight-source-shell"&gt;&lt;pre class="notranslate"&gt;password=&lt;span class="pl-s"&gt;&lt;span class="pl-pds"&gt;"&lt;/span&gt;your-new-password&lt;span class="pl-pds"&gt;"&lt;/span&gt;&lt;/span&gt; &lt;span class="pl-k"&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class="pl-c1"&gt;echo&lt;/span&gt; &lt;span class="pl-s"&gt;&lt;span class="pl-pds"&gt;"&lt;/span&gt;&lt;span class="pl-smi"&gt;$password&lt;/span&gt;&lt;span class="pl-pds"&gt;"&lt;/span&gt;&lt;/span&gt; &lt;span class="pl-k"&gt;|&lt;/span&gt; sudo tee /root/init/.club &lt;span class="pl-k"&gt;&amp;gt;&lt;/span&gt; /dev/null &lt;span class="pl-k"&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class="pl-c1"&gt;echo&lt;/span&gt; &lt;span class="pl-s"&gt;&lt;span class="pl-pds"&gt;"&lt;/span&gt;club:&lt;span class="pl-smi"&gt;$password&lt;/span&gt;&lt;span class="pl-pds"&gt;"&lt;/span&gt;&lt;/span&gt; &lt;span class="pl-k"&gt;|&lt;/span&gt; sudo chpasswd&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;修改 dufs 的访问密码&lt;/strong&gt;&lt;br&gt;
+dufs 默认密码为弱密码，请及时在 &lt;code class="notranslate"&gt;/root/supervisord/supervisord.conf&lt;/code&gt; 配置中更改为强密码，并重启服务。&lt;/p&gt;
+&lt;div class="highlight highlight-source-shell"&gt;&lt;pre class="notranslate"&gt;sudo sed -i &lt;span class="pl-s"&gt;&lt;span class="pl-pds"&gt;'&lt;/span&gt;s/club:[^@]*@/club:your-new-password@/&lt;span class="pl-pds"&gt;'&lt;/span&gt;&lt;/span&gt; /root/supervisord/supervisord.conf &lt;span class="pl-k"&gt;&amp;amp;&amp;amp;&lt;/span&gt; sudo supervisorctl reread &lt;span class="pl-k"&gt;&amp;amp;&amp;amp;&lt;/span&gt; sudo supervisorctl update&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;重启你的应用&lt;/strong&gt;&lt;br&gt;
+&lt;a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/CJSen/club/refs/heads/main/static/photos/restart.png"&gt;&lt;img src="https://raw.githubusercontent.com/CJSen/club/refs/heads/main/static/photos/restart.png" alt="alt text" style="max-width: 100%;"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;目录结构&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class="notranslate"&gt;bin/&lt;/code&gt;：包含 uv、uvx、webssh、dufs 可执行文件&lt;/li&gt;
+&lt;li&gt;&lt;code class="notranslate"&gt;configs/&lt;/code&gt;：supervisord 及相关配置&lt;/li&gt;
+&lt;li&gt;&lt;code class="notranslate"&gt;entrypoint.sh&lt;/code&gt;：容器启动脚本&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;其他说明&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;建议定期更新镜像，及时修复安全漏洞。&lt;/li&gt;
+&lt;li&gt;如需自定义 Python 包或工具，请参考 uv 官方文档。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;如有问题欢迎提 issue 或联系维护者。&lt;/p&gt;
+&lt;p&gt;你可以根据实际端口和配置进一步补充细节。&lt;/p&gt;</content:encoded><guid isPermaLink="true">https://blog.936668.xyz/post/4.html</guid><pubDate>Wed, 23 Apr 2025 15:32:29 +0000</pubDate></item><item><title>谈谈我的浏览器导航首页和跨浏览器书签同步</title><link>https://blog.936668.xyz/post/3.html</link><description># 浏览器首页与书签同步体验分享
+
+&gt; 记录一次浏览器首页美化与多端书签同步的探索之旅
+
+---
+
+## 1. 我的浏览器首页进化史
+
+最初用浏览器时，我总喜欢把首页设为 **hao123**。</description><content:encoded>&lt;h1&gt;浏览器首页与书签同步体验分享&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;记录一次浏览器首页美化与多端书签同步的探索之旅&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2&gt;1. 我的浏览器首页进化史&lt;/h2&gt;
+&lt;p&gt;最初用浏览器时，我总喜欢把首页设为 &lt;strong&gt;hao123&lt;/strong&gt;。虽然它的其他软件口碑一般，但作为导航站，确实简洁实用。&lt;/p&gt;
+&lt;p&gt;后来家里有了 mini 主机，虽然可以自建导航页，但受限于只能本地访问、没有公网、内网穿透麻烦等问题，就一直没折腾。&lt;/p&gt;
+&lt;p&gt;直到在 L 站接触到 &lt;strong&gt;serv00&lt;/strong&gt; 服务器，才打开了“白嫖”世界的大门。用 serv00-play 项目搭建了 sun-panel，配合 webssh，体验非常棒。sun-panel 还支持内外网区分，功能贴心，一度成为我的主力导航页。&lt;/p&gt;
+&lt;p&gt;但好景不长，最近 serv00 陷入锁机封号风波，我的另一台小鸡也被封了。于是赶紧迁移数据，机缘巧合下又在 L 站发现了本期主角：@Sowhale 开发的TabMark Bookmark New Tab：&lt;a href="https://linux.do/t/topic/364489" rel="nofollow"&gt;https://linux.do/t/topic/364489&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;2. TabMark Bookmark New Tab&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;TabMark 能将浏览器书签变成新标签页&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;界面清爽、分组直观、效率极高&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;chrom和edge插件商店搜索直接安装&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;直接拖动整理标签&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;支持智能 AI 搜索，Chrome/Edge 都能用&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;小技巧&lt;/strong&gt;：TabMark 原生不支持分组，我用 cursor 做了魔改，增大了图标、添加了分组（用 &lt;code class="notranslate"&gt;***-group&lt;/code&gt; 命名的空文件夹作为分组分割和分组名），并在快捷访问区加了“打开书签管理器”按钮，管理更方便。有需要的可以使用我魔改的(提了pr，一直没动静)：&lt;a href="https://github.com/CJSen/TabMark-Bookmark-New-Tab/tree/feat-group"&gt;https://github.com/CJSen/TabMark-Bookmark-New-Tab/tree/feat-group&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/2ddbc513-9327-48b2-b586-252eb11f31f3"&gt;&lt;img width="1920" alt="Image" src="https://github.com/user-attachments/assets/2ddbc513-9327-48b2-b586-252eb11f31f3" style="max-width: 100%;"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;div align="center"&gt;图1：TabMark 首页示例，展示分组与快捷访问&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2&gt;3. 浏览器书签同步方案&lt;/h2&gt;
+&lt;p&gt;我同时用 Chrome 和 Edge，书签同步成了大难题。Google 网络不稳定，微软又不互通，手动同步太麻烦。&lt;/p&gt;
+&lt;p&gt;直到发现了 &lt;strong&gt;Floccus Bookmarks Sync&lt;/strong&gt; 插件！&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Chrome/Edge 商店均可下载&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;支持多种同步方式（如本地 WebDAV）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;自动合并、同步、整理书签&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;简单高效，极度推荐！&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/4fb19ef6-b175-45d0-872b-41773800bf41"&gt;&lt;img width="669" alt="Image" src="https://github.com/user-attachments/assets/4fb19ef6-b175-45d0-872b-41773800bf41" style="max-width: 100%;"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;div align="center"&gt;图2：Floccus 同步效果，书签自动整理&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2&gt;4. PC 与移动端体验&lt;/h2&gt;
+&lt;p&gt;移动端我就靠 Chrome/Edge 的账号同步，没做特别研究。本文主要还是推荐清爽的浏览器首页导航栏和高效的书签同步方案。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;5. bug&lt;/h2&gt;
+&lt;p&gt;目前体验下来整体很不错。。。但是有一个问题，就是刷新网页或者新建tab的时候，都会产生大量的读取图标连接，虽然读取的都是缓存（速度很快，基本不影响）。。。但是对于开发小伙伴不是很友好，一大堆网络连接影响调试的时候找到想要的连接哈哈，我看原作者issue中也有这个，但是也没动静。希望有能力的老哥可以修复。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;总结&lt;/strong&gt;：如果你也在寻找美观高效的浏览器首页和多端书签同步，不妨试试 TabMark + Floccus 组合，体验极佳！&lt;/p&gt;
+&lt;/blockquote&gt;</content:encoded><guid isPermaLink="true">https://blog.936668.xyz/post/3.html</guid><pubDate>Thu, 17 Apr 2025 08:12:52 +0000</pubDate></item><item><title>域名系统（DNS）的多种类型记录</title><link>https://blog.936668.xyz/post/2.html</link><description>### 最近买了一个域名挂载在cf大善人上，在配置的时候对各种主要DNS记录不大理解。</description><content:encoded>&lt;h3&gt;最近买了一个域名挂载在cf大善人上，在配置的时候对各种主要DNS记录不大理解。经查询，特此记录。&lt;/h3&gt;
+&lt;h3&gt;1. &lt;strong&gt;A记录 (Address Record)&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;用途&lt;/strong&gt;：将域名解析为IPv4地址。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;例子&lt;/strong&gt;：&lt;code class="notranslate"&gt;example.com&lt;/code&gt; -&amp;gt; &lt;code class="notranslate"&gt;192.168.1.1&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;使用场景&lt;/strong&gt;：最常见的记录类型，用于将域名指向一个IPv4地址。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;2. &lt;strong&gt;AAAA记录 (IPv6 Address Record)&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;用途&lt;/strong&gt;：将域名解析为IPv6地址。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;例子&lt;/strong&gt;：&lt;code class="notranslate"&gt;example.com&lt;/code&gt; -&amp;gt; &lt;code class="notranslate"&gt;2001:0db8:85a3:0000:0000:8a2e:0370:7334&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;使用场景&lt;/strong&gt;：当你的服务器支持IPv6时，用于将域名解析到一个IPv6地址。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;3. &lt;strong&gt;MX记录 (Mail Exchange Record)&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;用途&lt;/strong&gt;：指定处理域名电子邮件的邮件服务器。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;例子&lt;/strong&gt;：&lt;code class="notranslate"&gt;example.com&lt;/code&gt; -&amp;gt; &lt;code class="notranslate"&gt;mail.example.com&lt;/code&gt; (优先级 &lt;code class="notranslate"&gt;10&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;使用场景&lt;/strong&gt;：用于设置电子邮件的接收服务器，通常多个MX记录可以用来设置备份邮件服务器。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;4. &lt;strong&gt;CNAME记录 (Canonical Name Record)&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;用途&lt;/strong&gt;：将一个域名别名指向另一个域名。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;例子&lt;/strong&gt;：&lt;code class="notranslate"&gt;www.example.com&lt;/code&gt; -&amp;gt; &lt;code class="notranslate"&gt;example.com&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;使用场景&lt;/strong&gt;：用于将子域名重定向到主域名或其他子域名上。CNAME记录不能与其他记录（如A记录）混用。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;5. &lt;strong&gt;SRV记录 (Service Record)&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;用途&lt;/strong&gt;：定义主机名和端口，用于特定服务。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;例子&lt;/strong&gt;：&lt;code class="notranslate"&gt;_sip._tcp.example.com&lt;/code&gt; -&amp;gt; &lt;code class="notranslate"&gt;sipserver.example.com:5060&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;使用场景&lt;/strong&gt;：用于指定服务（如VoIP、IM等）的服务器及端口号。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;6. &lt;strong&gt;TXT记录 (Text Record)&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;用途&lt;/strong&gt;：存储任意文本数据。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;例子&lt;/strong&gt;：&lt;code class="notranslate"&gt;example.com&lt;/code&gt; -&amp;gt; &lt;code class="notranslate"&gt;"v=spf1 include:_spf.google.com ~all"&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;使用场景&lt;/strong&gt;：常用于验证域名所有权，设置电子邮件的SPF（Sender Policy Framework），或者为DNS-SD（DNS-based Service Discovery）提供信息。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;7. &lt;strong&gt;CAA记录 (Certification Authority Authorization Record)&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;用途&lt;/strong&gt;：指定哪些证书颁发机构（CA）可以为该域名颁发SSL/TLS证书。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;例子&lt;/strong&gt;：&lt;code class="notranslate"&gt;example.com&lt;/code&gt; -&amp;gt; &lt;code class="notranslate"&gt;0 issue "letsencrypt.org"&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;使用场景&lt;/strong&gt;：用于加强域名的安全性，防止未经授权的CA为该域名颁发证书。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;8. &lt;strong&gt;NS记录 (Name Server Record)&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;用途&lt;/strong&gt;：指定管理该域名的DNS服务器。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;例子&lt;/strong&gt;：&lt;code class="notranslate"&gt;example.com&lt;/code&gt; -&amp;gt; &lt;code class="notranslate"&gt;ns1.example.com&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;使用场景&lt;/strong&gt;：设置哪个DNS服务器负责解析该域名。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;9. &lt;strong&gt;PTR记录 (Pointer Record)&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;用途&lt;/strong&gt;：用于反向DNS解析，将IP地址映射到域名。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;例子&lt;/strong&gt;：&lt;code class="notranslate"&gt;1.1.168.192.in-addr.arpa&lt;/code&gt; -&amp;gt; &lt;code class="notranslate"&gt;example.com&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;使用场景&lt;/strong&gt;：主要用于电子邮件服务器的反向解析，确保发件IP地址有匹配的域名。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;10. &lt;strong&gt;TLSA记录 (Transport Layer Security Authentication Record)&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;用途&lt;/strong&gt;：用于DANE（DNS-based Authentication of Na med Entities），将TLS/SSLs证书信息存储在DNS中。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;例子&lt;/strong&gt;：&lt;code class="notranslate"&gt;_443._tcp.example.com&lt;/code&gt; -&amp;gt; &lt;code class="notranslate"&gt;3 0 1 9a8df1b3f6c0...&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;使用场景&lt;/strong&gt;：用于增强TLS连接的安全性，确保TLS证书与DNS记录匹配。&lt;/li&gt;
+&lt;/ul&gt;</content:encoded><guid isPermaLink="true">https://blog.936668.xyz/post/2.html</guid><pubDate>Thu, 06 Mar 2025 08:23:56 +0000</pubDate></item><item><title>Gmeek blog Document</title><link>https://blog.936668.xyz/post/1.html</link><description>[Gmeek document](https://blog.meekdai.com/tag.html#Gmeek)
+
+&lt;!-- ##{'timestamp':1683388800}## --&gt;。</description><content:encoded>&lt;p&gt;&lt;a href="https://blog.meekdai.com/tag.html#Gmeek" rel="nofollow"&gt;Gmeek document&lt;/a&gt;&lt;/p&gt;
+</content:encoded><guid isPermaLink="true">https://blog.936668.xyz/post/1.html</guid><pubDate>Sat, 06 May 2023 16:00:00 +0000</pubDate></item><item><title>关于</title><link>https://blog.936668.xyz/about.html</link><description>测试关于页面。</description><guid isPermaLink="true">https://blog.936668.xyz/about.html</guid><pubDate>Sun, 27 Apr 2025 07:04:15 +0000</pubDate></item><item><title>友情链接</title><link>https://blog.936668.xyz/link.html</link><description>这里记录了一些有趣的链接。</description><guid isPermaLink="true">https://blog.936668.xyz/link.html</guid><pubDate>Sun, 27 Apr 2025 07:13:06 +0000</pubDate></item></channel></rss>
