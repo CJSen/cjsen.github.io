@@ -1,7 +1,7 @@
 import os
 from datetime import datetime
 
-SITE_URL = "https://blog.936668.xyz"  # 修改为你的站点地址
+SITE_URL = "https://chjs.dpdns.org"  # 修改为你的站点地址
 docs_dir = os.path.join(os.path.dirname(__file__), "../docs")
 post_dir = os.path.join(docs_dir, "post")
 sitemap_path = os.path.join(docs_dir, "sitemap.xml")

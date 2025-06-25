@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://blog.936668.xyz/sitemap.xml
+Sitemap: https://chjs.dpdns.org/sitemap.xml

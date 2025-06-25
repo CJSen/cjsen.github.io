@@ -1,9 +1,9 @@
 {
     "title":"chjs's blog",
     "subTitle":"chjs的个人小站--但行好事，莫问前程",
-    "homeUrl":"https://blog.936668.xyz",
+    "homeUrl":"https://chjs.dpdns.org",
     "avatarUrl":"https://avatars.githubusercontent.com/u/48038717?v=4",
-    "faviconUrl":"https://blog.936668.xyz/chjsblog-favicon.jpg",
+    "faviconUrl":"https://chjs.dpdns.org/chjsblog-favicon.jpg",
     "singlePage":["link","about"],
     "startSite":"03/23/2023",
     "onePageListNum":15,
