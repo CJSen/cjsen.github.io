@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://chjs.dpdns.org/sitemap.xml
