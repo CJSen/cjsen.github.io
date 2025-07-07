@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>chjs's blog</title><link>https://chjs.dpdns.org</link><description>chjs的个人小站--但行好事，莫问前程</description><copyright>chjs's blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/48038717?v=4</url><title>avatar</title><link>https://chjs.dpdns.org</link></image><lastBuildDate>Fri, 04 Jul 2025 16:16:36 +0000</lastBuildDate><managingEditor>chjs's blog</managingEditor><ttl>60</ttl><webMaster>chjs's blog</webMaster><item><title>astrbot_plugin_daliy_60s_news：让群聊每天 60 秒掌握新鲜资讯的群聊插件</title><link>https://chjs.dpdns.org/post/23.html</link><description>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>chjs's blog</title><link>https://chjs.dpdns.org</link><description>chjs的个人小站--但行好事，莫问前程</description><copyright>chjs's blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/48038717?v=4</url><title>avatar</title><link>https://chjs.dpdns.org</link></image><lastBuildDate>Mon, 07 Jul 2025 16:17:30 +0000</lastBuildDate><managingEditor>chjs's blog</managingEditor><ttl>60</ttl><webMaster>chjs's blog</webMaster><item><title>astrbot_plugin_daliy_60s_news：让群聊每天 60 秒掌握新鲜资讯的群聊插件</title><link>https://chjs.dpdns.org/post/23.html</link><description>
 
 &gt; 记录一次为 AstrBot 写插件的经历，顺便安利下这个自动推送新闻的小工具
 
@@ -41,7 +41,7 @@
 &lt;li&gt;&lt;code class="notranslate"&gt;/新闻 status&lt;/code&gt;：查插件状态（管理员）&lt;/li&gt;
 &lt;li&gt;&lt;code class="notranslate"&gt;/新闻 clean&lt;/code&gt;：清理过期新闻（管理员）&lt;/li&gt;
 &lt;li&gt;&lt;code class="notranslate"&gt;/新闻 push&lt;/code&gt;：手动推送（管理员）&lt;br&gt;
-&lt;a target="_blank" rel="noopener noreferrer" href="https://github.com/CJSen/astrbot_plugin_daliy_60s_news/raw/master/static/image.png"&gt;&lt;img src="https://github.com/CJSen/astrbot_plugin_daliy_60s_news/raw/master/static/image.png" alt="命令" style="max-width: 100%; height: auto;"&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;a target="_blank" rel="noopener noreferrer" href="https://github.com/CJSen/astrbot_plugin_daliy_60s_news/raw/master/static/image.png"&gt;&lt;img src="https://github.com/CJSen/astrbot_plugin_daliy_60s_news/raw/master/static/image.png" alt="命令" style="max-width: 100%;"&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
@@ -113,8 +113,8 @@ lsx search 文件&lt;/pre&gt;&lt;/div&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;h2&gt;5. 预览&lt;/h2&gt;
-&lt;p&gt;&lt;a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/CJSen/cjsen.github.io/main/static/images/lsx-cmd.gif"&gt;&lt;img width="601" alt="Image" src="https://raw.githubusercontent.com/CJSen/cjsen.github.io/main/static/images/lsx-cmd.gif" style="max-width: 100%; height: auto;"&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/CJSen/cjsen.github.io/main/static/images/lsx-search.gif"&gt;&lt;img width="601" alt="Image" src="https://raw.githubusercontent.com/CJSen/cjsen.github.io/main/static/images/lsx-search.gif" style="max-width: 100%; height: auto;"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/CJSen/cjsen.github.io/main/static/images/lsx-cmd.gif"&gt;&lt;img width="601" alt="Image" src="https://raw.githubusercontent.com/CJSen/cjsen.github.io/main/static/images/lsx-cmd.gif" style="max-width: 100%;"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/CJSen/cjsen.github.io/main/static/images/lsx-search.gif"&gt;&lt;img width="601" alt="Image" src="https://raw.githubusercontent.com/CJSen/cjsen.github.io/main/static/images/lsx-search.gif" style="max-width: 100%;"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;div class="highlight highlight-source-shell"&gt;&lt;pre class="notranslate"&gt;&lt;span class="pl-k"&gt;~&lt;/span&gt; lsx -h
 Impressive Linux commands cheat sheet cli.
 
@@ -163,7 +163,7 @@ Use &lt;span class="pl-s"&gt;&lt;span class="pl-pds"&gt;"&lt;/span&gt;lsx [comma
 &lt;p&gt;👉 &lt;a href="https://github.com/CJSen/minichat/releases/tag/v1.0.0"&gt;改进版下载地址&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2&gt;效果图&lt;/h2&gt;
-&lt;p&gt;&lt;a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/8e8cb29e-4786-4f66-ab92-2f9c2190f3a0"&gt;&lt;img width="601" alt="Image" src="https://github.com/user-attachments/assets/8e8cb29e-4786-4f66-ab92-2f9c2190f3a0" style="max-width: 100%; height: auto;"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/8e8cb29e-4786-4f66-ab92-2f9c2190f3a0"&gt;&lt;img width="601" alt="Image" src="https://github.com/user-attachments/assets/8e8cb29e-4786-4f66-ab92-2f9c2190f3a0" style="max-width: 100%;"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2&gt;最后&lt;/h2&gt;
 &lt;p&gt;再次感谢L站佬 "hahahaha" 开源了这么一个好用的项目！&lt;/p&gt;
@@ -177,14 +177,14 @@ Use &lt;span class="pl-s"&gt;&lt;span class="pl-pds"&gt;"&lt;/span&gt;lsx [comma
 &lt;li&gt;&lt;a href="https://github.com/crazypeace/huashengdun-webssh"&gt;crazypeace&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/huashengdun/webssh"&gt;huashengdun&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/7ee6fff6-2a6a-415e-8036-3a685d525de6"&gt;&lt;img width="1181" alt="Image" src="https://github.com/user-attachments/assets/7ee6fff6-2a6a-415e-8036-3a685d525de6" style="max-width: 100%; height: auto;"&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/a7ac349d-d2d0-44c5-8f97-20e50abd0710"&gt;&lt;img width="1035" alt="Image" src="https://github.com/user-attachments/assets/a7ac349d-d2d0-44c5-8f97-20e50abd0710" style="max-width: 100%; height: auto;"&gt;&lt;/a&gt;&lt;/p&gt;</content:encoded><guid isPermaLink="true">https://chjs.dpdns.org/post/20.html</guid><pubDate>Sat, 03 May 2025 07:56:55 +0000</pubDate></item><item><title>github 图片炸了？可能是 chrome/edge上的最简单解决方案</title><link>https://chjs.dpdns.org/post/18.html</link><description>不是不支持简体中文吗？那直接修改成中文吧。</description><content:encoded>&lt;p&gt;不是不支持简体中文吗？那直接修改成中文吧。。。。。就这么简单。&lt;br&gt;
+&lt;p&gt;&lt;a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/7ee6fff6-2a6a-415e-8036-3a685d525de6"&gt;&lt;img width="1181" alt="Image" src="https://github.com/user-attachments/assets/7ee6fff6-2a6a-415e-8036-3a685d525de6" style="max-width: 100%;"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/a7ac349d-d2d0-44c5-8f97-20e50abd0710"&gt;&lt;img width="1035" alt="Image" src="https://github.com/user-attachments/assets/a7ac349d-d2d0-44c5-8f97-20e50abd0710" style="max-width: 100%;"&gt;&lt;/a&gt;&lt;/p&gt;</content:encoded><guid isPermaLink="true">https://chjs.dpdns.org/post/20.html</guid><pubDate>Sat, 03 May 2025 07:56:55 +0000</pubDate></item><item><title>github 图片炸了？可能是 chrome/edge上的最简单解决方案</title><link>https://chjs.dpdns.org/post/18.html</link><description>不是不支持简体中文吗？那直接修改成中文吧。</description><content:encoded>&lt;p&gt;不是不支持简体中文吗？那直接修改成中文吧。。。。。就这么简单。&lt;br&gt;
 右上角添加 “中文”，而不是 “简体中文”，然后点击三个点中文置顶即可。。&lt;br&gt;
 其实只要 “简体中文” 不是第一个就行了。这样不用切成英文，或者下载插件配置规则，影响使用中文浏览器的朋友们。&lt;/p&gt;
 &lt;p&gt;直达链接：&lt;br&gt;
 👉 Chrome复制粘贴到地址栏：chrome://settings/languages&lt;br&gt;
 👉 Edge复制粘贴到地址栏：edge://settings/languages&lt;/p&gt;
-&lt;p&gt;&lt;a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/276bd15e-6cac-4c27-ab77-8b9b197724cf"&gt;&lt;img width="673" alt="Image" src="https://github.com/user-attachments/assets/276bd15e-6cac-4c27-ab77-8b9b197724cf" style="max-width: 100%; height: auto;"&gt;&lt;/a&gt;&lt;/p&gt;</content:encoded><guid isPermaLink="true">https://chjs.dpdns.org/post/18.html</guid><pubDate>Tue, 29 Apr 2025 17:04:57 +0000</pubDate></item><item><title>人会死，但我的博客在GitHub中会万岁--转载</title><link>https://chjs.dpdns.org/post/8.html</link><description>转载自Gmeek作者@Meekdai，文章链接：
+&lt;p&gt;&lt;a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/276bd15e-6cac-4c27-ab77-8b9b197724cf"&gt;&lt;img width="673" alt="Image" src="https://github.com/user-attachments/assets/276bd15e-6cac-4c27-ab77-8b9b197724cf" style="max-width: 100%;"&gt;&lt;/a&gt;&lt;/p&gt;</content:encoded><guid isPermaLink="true">https://chjs.dpdns.org/post/18.html</guid><pubDate>Tue, 29 Apr 2025 17:04:57 +0000</pubDate></item><item><title>人会死，但我的博客在GitHub中会万岁--转载</title><link>https://chjs.dpdns.org/post/8.html</link><description>转载自Gmeek作者@Meekdai，文章链接：
 [人会死，但我的博客在GitHub中会万岁](https://blog.meekdai.com/post/ren-hui-si-%EF%BC%8C-dan-wo-de-bo-ke-zai-GitHub-zhong-hui-wan-sui.html)
 
 当人类面对时间的无情流逝，我们总是渴望留下一些痕迹，一些思想，一些记忆。</description><content:encoded>&lt;p&gt;转载自Gmeek作者&lt;a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Meekdai/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Meekdai"&gt;@Meekdai&lt;/a&gt;，文章链接：&lt;br&gt;
@@ -260,12 +260,12 @@ Use &lt;span class="pl-s"&gt;&lt;span class="pl-pds"&gt;"&lt;/span&gt;lsx [comma
 &lt;li&gt;端口开放 5000（dufs）和 8888（webssh），并打开 "Enable Internet Access" 按钮。&lt;/li&gt;
 &lt;li&gt;挂载 /root 目录(必须)，大小自己调整。&lt;/li&gt;
 &lt;li&gt;点击右上角 "deploy application"，等待容器启动(可能会超时，镜像比较大，没关系，直接返回在点进来就好了)&lt;br&gt;
-&lt;a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/CJSen/club/refs/heads/main/static/photos/deploy.png"&gt;&lt;img src="https://raw.githubusercontent.com/CJSen/club/refs/heads/main/static/photos/deploy.png" alt="alt text" style="max-width: 100%; height: auto;"&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/CJSen/club/refs/heads/main/static/photos/deploy.png"&gt;&lt;img src="https://raw.githubusercontent.com/CJSen/club/refs/heads/main/static/photos/deploy.png" alt="alt text" style="max-width: 100%;"&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;访问服务&lt;/strong&gt;：&lt;br&gt;
-&lt;a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/CJSen/club/refs/heads/main/static/photos/network.png"&gt;&lt;img src="https://raw.githubusercontent.com/CJSen/club/refs/heads/main/static/photos/network.png" alt="alt text" style="max-width: 100%; height: auto;"&gt;&lt;/a&gt;&lt;br&gt;
+&lt;a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/CJSen/club/refs/heads/main/static/photos/network.png"&gt;&lt;img src="https://raw.githubusercontent.com/CJSen/club/refs/heads/main/static/photos/network.png" alt="alt text" style="max-width: 100%;"&gt;&lt;/a&gt;&lt;br&gt;
 访问面板，点击对应的 public address，即可访问服务。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;webssh：
@@ -273,14 +273,14 @@ Use &lt;span class="pl-s"&gt;&lt;span class="pl-pds"&gt;"&lt;/span&gt;lsx [comma
 &lt;li&gt;hostname: localhost&lt;/li&gt;
 &lt;li&gt;username:club&lt;/li&gt;
 &lt;li&gt;password:123456&lt;br&gt;
-&lt;a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/CJSen/club/refs/heads/main/static/photos/webssh.png"&gt;&lt;img src="https://raw.githubusercontent.com/CJSen/club/refs/heads/main/static/photos/webssh.png" alt="alt text" style="max-width: 100%; height: auto;"&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/CJSen/club/refs/heads/main/static/photos/webssh.png"&gt;&lt;img src="https://raw.githubusercontent.com/CJSen/club/refs/heads/main/static/photos/webssh.png" alt="alt text" style="max-width: 100%;"&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;dufs：
 &lt;ul&gt;
 &lt;li&gt;username:club&lt;/li&gt;
 &lt;li&gt;password:123456&lt;br&gt;
-&lt;a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/CJSen/club/refs/heads/main/static/photos/dufs.png"&gt;&lt;img src="https://raw.githubusercontent.com/CJSen/club/refs/heads/main/static/photos/dufs.png" alt="alt text" style="max-width: 100%; height: auto;"&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/CJSen/club/refs/heads/main/static/photos/dufs.png"&gt;&lt;img src="https://raw.githubusercontent.com/CJSen/club/refs/heads/main/static/photos/dufs.png" alt="alt text" style="max-width: 100%;"&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -301,7 +301,7 @@ dufs 默认密码为弱密码，请及时在 &lt;code class="notranslate"&gt;/ro
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;重启你的应用&lt;/strong&gt;&lt;br&gt;
-&lt;a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/CJSen/club/refs/heads/main/static/photos/restart.png"&gt;&lt;img src="https://raw.githubusercontent.com/CJSen/club/refs/heads/main/static/photos/restart.png" alt="alt text" style="max-width: 100%; height: auto;"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/CJSen/club/refs/heads/main/static/photos/restart.png"&gt;&lt;img src="https://raw.githubusercontent.com/CJSen/club/refs/heads/main/static/photos/restart.png" alt="alt text" style="max-width: 100%;"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2&gt;目录结构&lt;/h2&gt;
@@ -357,7 +357,7 @@ dufs 默认密码为弱密码，请及时在 &lt;code class="notranslate"&gt;/ro
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;小技巧&lt;/strong&gt;：TabMark 原生不支持分组，我用 cursor 做了魔改，增大了图标、添加了分组（用 &lt;code class="notranslate"&gt;***-group&lt;/code&gt; 命名的空文件夹作为分组分割和分组名），并在快捷访问区加了“打开书签管理器”按钮，管理更方便。有需要的可以使用我魔改的(提了pr，一直没动静)：&lt;a href="https://github.com/CJSen/TabMark-Bookmark-New-Tab/tree/feat-group"&gt;https://github.com/CJSen/TabMark-Bookmark-New-Tab/tree/feat-group&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/2ddbc513-9327-48b2-b586-252eb11f31f3"&gt;&lt;img width="1920" alt="Image" src="https://github.com/user-attachments/assets/2ddbc513-9327-48b2-b586-252eb11f31f3" style="max-width: 100%; height: auto;"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/2ddbc513-9327-48b2-b586-252eb11f31f3"&gt;&lt;img width="1920" alt="Image" src="https://github.com/user-attachments/assets/2ddbc513-9327-48b2-b586-252eb11f31f3" style="max-width: 100%;"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;div align="center"&gt;图1：TabMark 首页示例，展示分组与快捷访问&lt;/div&gt;
 &lt;hr&gt;
 &lt;h2&gt;3. 浏览器书签同步方案&lt;/h2&gt;
@@ -377,7 +377,7 @@ dufs 默认密码为弱密码，请及时在 &lt;code class="notranslate"&gt;/ro
 &lt;p&gt;简单高效，极度推荐！&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/4fb19ef6-b175-45d0-872b-41773800bf41"&gt;&lt;img width="669" alt="Image" src="https://github.com/user-attachments/assets/4fb19ef6-b175-45d0-872b-41773800bf41" style="max-width: 100%; height: auto;"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/4fb19ef6-b175-45d0-872b-41773800bf41"&gt;&lt;img width="669" alt="Image" src="https://github.com/user-attachments/assets/4fb19ef6-b175-45d0-872b-41773800bf41" style="max-width: 100%;"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;div align="center"&gt;图2：Floccus 同步效果，书签自动整理&lt;/div&gt;
 &lt;hr&gt;
 &lt;h2&gt;4. PC 与移动端体验&lt;/h2&gt;
