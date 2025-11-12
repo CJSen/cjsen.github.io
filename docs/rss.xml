@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>chjs's blog</title><link>https://chjs.dpdns.org</link><description>chjs的个人小站--但行好事，莫问前程</description><copyright>chjs's blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/48038717?v=4</url><title>avatar</title><link>https://chjs.dpdns.org</link></image><lastBuildDate>Mon, 07 Jul 2025 16:17:30 +0000</lastBuildDate><managingEditor>chjs's blog</managingEditor><ttl>60</ttl><webMaster>chjs's blog</webMaster><item><title>astrbot_plugin_daliy_60s_news：让群聊每天 60 秒掌握新鲜资讯的群聊插件</title><link>https://chjs.dpdns.org/post/23.html</link><description>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>chjs's blog</title><link>https://chjs.dpdns.org</link><description>chjs的个人小站--但行好事，莫问前程</description><copyright>chjs's blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/48038717?v=4</url><title>avatar</title><link>https://chjs.dpdns.org</link></image><lastBuildDate>Wed, 12 Nov 2025 09:22:55 +0000</lastBuildDate><managingEditor>chjs's blog</managingEditor><ttl>60</ttl><webMaster>chjs's blog</webMaster><item><title>astrbot_plugin_daliy_60s_news：让群聊每天 60 秒掌握新鲜资讯的群聊插件</title><link>https://chjs.dpdns.org/post/23.html</link><description>
 
 &gt; 记录一次为 AstrBot 写插件的经历，顺便安利下这个自动推送新闻的小工具
 
@@ -214,14 +214,15 @@ Use &lt;span class="pl-s"&gt;&lt;span class="pl-pds"&gt;"&lt;/span&gt;lsx [comma
 &lt;hr&gt;
 &lt;h2&gt;🖥️ WebSSH&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://webssh.936668.xyz/" rel="nofollow"&gt;&lt;del&gt;webssh&lt;/del&gt;&lt;/a&gt; serv00服务器被封啦～&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://clwebssh.936668.xyz/" rel="nofollow"&gt;clwebssh&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://fcwebssh.936668.xyz/" rel="nofollow"&gt;fcwebssh（支持 IPv6）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://clwebssh.936668.xyz/" rel="nofollow"&gt;&lt;del&gt;clwebssh&lt;/del&gt;&lt;/a&gt;  服务器资源不足，关闭了。&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://webssh.936668.xyz/" rel="nofollow"&gt;&lt;del&gt;webssh&lt;/del&gt;&lt;/a&gt; serv00服务器被封啦～&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;h2&gt;🛠️ 工具&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://it-tools.936668.xyz/" rel="nofollow"&gt;IT Tools&lt;/a&gt; — 在线工具集合&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://it-tools.936668.xyz/" rel="nofollow"&gt;Cloud-mail&lt;/a&gt; — 基于cloudflare workers的Serverless 响应式邮箱服务&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://gitstars.936668.xyz/" rel="nofollow"&gt;Gitstars&lt;/a&gt; — GitHub Stars 管理器&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://memos.936668.xyz/" rel="nofollow"&gt;Memos&lt;/a&gt; — 开源自托管笔记应用&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://minichat.936668.xyz/" rel="nofollow"&gt;MiniChat&lt;/a&gt; — 开源隐私聊天室&lt;/li&gt;
