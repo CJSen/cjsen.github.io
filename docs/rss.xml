@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>chjs's blog</title><link>https://chjs.dpdns.org</link><description>chjs的个人小站--但行好事，莫问前程</description><copyright>chjs's blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/48038717?v=4</url><title>avatar</title><link>https://chjs.dpdns.org</link></image><lastBuildDate>Tue, 13 Jan 2026 16:22:46 +0000</lastBuildDate><managingEditor>chjs's blog</managingEditor><ttl>60</ttl><webMaster>chjs's blog</webMaster><item><title>测试vscode中的github pull request插件</title><link>https://chjs.dpdns.org/post/24.html</link><description>测试vscode中的github pull request插件
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>chjs's blog</title><link>https://chjs.dpdns.org</link><description>chjs的个人小站--但行好事，莫问前程</description><copyright>chjs's blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/48038717?v=4</url><title>avatar</title><link>https://chjs.dpdns.org</link></image><lastBuildDate>Wed, 14 Jan 2026 16:21:51 +0000</lastBuildDate><managingEditor>chjs's blog</managingEditor><ttl>60</ttl><webMaster>chjs's blog</webMaster><item><title>测试vscode中的github pull request插件</title><link>https://chjs.dpdns.org/post/24.html</link><description>测试vscode中的github pull request插件
 test
 ttttt
 test3
@@ -37,8 +37,7 @@ test3&lt;/p&gt;
 &lt;h2&gt;3. 怎么用？&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;克隆插件到 AstrBot 的 &lt;code class="notranslate"&gt;/data/plugin/&lt;/code&gt; 目录：
-&lt;pre lang="bash" class="notranslate"&gt;&lt;code class="notranslate"&gt;git clone https://github.com/CJSen/astrbot_plugin_daliy_60s_news.git
-&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="highlight highlight-source-shell"&gt;&lt;pre class="notranslate"&gt;git clone https://github.com/CJSen/astrbot_plugin_daliy_60s_news.git&lt;/pre&gt;&lt;/div&gt;
 &lt;/li&gt;
 &lt;li&gt;进入 AstrBot 网页插件配置界面，按需调整参数并保存。&lt;/li&gt;
 &lt;li&gt;配置群聊 ID（/sid 获取），支持多平台多群聊。&lt;/li&gt;
