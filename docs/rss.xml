@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>chjs's blog</title><link>https://chjs.dpdns.org</link><description>chjs的个人小站--但行好事，莫问前程</description><copyright>chjs's blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/48038717?v=4</url><title>avatar</title><link>https://chjs.dpdns.org</link></image><lastBuildDate>Thu, 12 Mar 2026 16:53:15 +0000</lastBuildDate><managingEditor>chjs's blog</managingEditor><ttl>60</ttl><webMaster>chjs's blog</webMaster><item><title>测试vscode中的github pull request插件</title><link>https://chjs.dpdns.org/post/24.html</link><description>测试vscode中的github pull request插件
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>chjs's blog</title><link>https://chjs.dpdns.org</link><description>chjs的个人小站--但行好事，莫问前程</description><copyright>chjs's blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/48038717?v=4</url><title>avatar</title><link>https://chjs.dpdns.org</link></image><lastBuildDate>Fri, 13 Mar 2026 16:31:37 +0000</lastBuildDate><managingEditor>chjs's blog</managingEditor><ttl>60</ttl><webMaster>chjs's blog</webMaster><item><title>测试vscode中的github pull request插件</title><link>https://chjs.dpdns.org/post/24.html</link><description>测试vscode中的github pull request插件
 test
 ttttt
 test3
@@ -99,21 +99,18 @@ test3&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="https://github.com/CJSen/lsx/releases"&gt;下载最新版二进制&lt;/a&gt;，解压后赋予执行权限，建议放到 &lt;code class="notranslate"&gt;/usr/local/bin&lt;/code&gt; 等可执行目录下，方便全局调用。&lt;/li&gt;
 &lt;li&gt;初始化命令库（首次使用建议联网）：
-&lt;pre lang="bash" class="notranslate"&gt;&lt;code class="notranslate"&gt;lsx upcommands &amp;amp;&amp;amp; lsx upgrade
-&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="highlight highlight-source-shell"&gt;&lt;pre class="notranslate"&gt;lsx upcommands &lt;span class="pl-k"&gt;&amp;amp;&amp;amp;&lt;/span&gt; lsx upgrade&lt;/pre&gt;&lt;/div&gt;
 &lt;/li&gt;
 &lt;li&gt;速查命令用法：
-&lt;pre lang="bash" class="notranslate"&gt;&lt;code class="notranslate"&gt;lsx grep
+&lt;div class="highlight highlight-source-shell"&gt;&lt;pre class="notranslate"&gt;lsx grep
 lsx show curl  // 当useShow配置为true时(默认false)，可是用此二级命令。lsx xxx将失效。
-lsx search 文件
-&lt;/code&gt;&lt;/pre&gt;
+lsx search 文件&lt;/pre&gt;&lt;/div&gt;
 &lt;/li&gt;
 &lt;li&gt;配置文件自定义（可选）：
-&lt;pre lang="yaml" class="notranslate"&gt;&lt;code class="notranslate"&gt;dataDir: "/Users/yourname/.lsx"
-remoteBaseUrl: "https://unpkg.com/linux-command@latest"
-useShow: false
-useLess: true
-&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="highlight highlight-source-yaml"&gt;&lt;pre class="notranslate"&gt;&lt;span class="pl-ent"&gt;dataDir&lt;/span&gt;: &lt;span class="pl-s"&gt;&lt;span class="pl-pds"&gt;"&lt;/span&gt;/Users/yourname/.lsx&lt;span class="pl-pds"&gt;"&lt;/span&gt;&lt;/span&gt;
+&lt;span class="pl-ent"&gt;remoteBaseUrl&lt;/span&gt;: &lt;span class="pl-s"&gt;&lt;span class="pl-pds"&gt;"&lt;/span&gt;https://unpkg.com/linux-command@latest&lt;span class="pl-pds"&gt;"&lt;/span&gt;&lt;/span&gt;
+&lt;span class="pl-ent"&gt;useShow&lt;/span&gt;: &lt;span class="pl-c1"&gt;false&lt;/span&gt;
+&lt;span class="pl-ent"&gt;useLess&lt;/span&gt;: &lt;span class="pl-c1"&gt;true&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;
 并通过 &lt;code class="notranslate"&gt;export LSXCONFIG=/path/to/lsx.yaml&lt;/code&gt; 指定配置。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;hr&gt;
@@ -127,26 +124,25 @@ useLess: true
 &lt;h2&gt;5. 预览&lt;/h2&gt;
 &lt;p&gt;&lt;a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/CJSen/cjsen.github.io/main/static/images/lsx-cmd.gif"&gt;&lt;img width="601" alt="Image" src="https://raw.githubusercontent.com/CJSen/cjsen.github.io/main/static/images/lsx-cmd.gif" style="max-width: 100%;"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/CJSen/cjsen.github.io/main/static/images/lsx-search.gif"&gt;&lt;img width="601" alt="Image" src="https://raw.githubusercontent.com/CJSen/cjsen.github.io/main/static/images/lsx-search.gif" style="max-width: 100%;"&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;pre lang="shell" class="notranslate"&gt;&lt;code class="notranslate"&gt;~ lsx -h
+&lt;div class="highlight highlight-source-shell"&gt;&lt;pre class="notranslate"&gt;&lt;span class="pl-k"&gt;~&lt;/span&gt; lsx -h
 Impressive Linux commands cheat sheet cli.
 
 Usage:
   lsx [command]
 
 Available Commands:
-  completion  Generate the autocompletion script for the specified shell
-  help        Help about any command
-  search      Search command by keywords
-  show        Show the specified command usage.
+  completion  Generate the autocompletion script &lt;span class="pl-k"&gt;for&lt;/span&gt; the specified shell
+  &lt;span class="pl-c1"&gt;help&lt;/span&gt;        Help about any &lt;span class="pl-c1"&gt;command&lt;/span&gt;
+  search      Search &lt;span class="pl-c1"&gt;command&lt;/span&gt; by keywords
+  show        Show the specified &lt;span class="pl-c1"&gt;command&lt;/span&gt; usage.
   upcommands  Update the embedded linux-command.json to the latest version.
   upgrade     Upgrade all commands from remote.
   version     Prints the version about lsx
 
 Flags:
-  -h, --help   help for lsx
+  -h, --help   &lt;span class="pl-c1"&gt;help&lt;/span&gt; &lt;span class="pl-k"&gt;for&lt;/span&gt; lsx
 
-Use "lsx [command] --help" for more information about a command.
-&lt;/code&gt;&lt;/pre&gt;
+Use &lt;span class="pl-s"&gt;&lt;span class="pl-pds"&gt;"&lt;/span&gt;lsx [command] --help&lt;span class="pl-pds"&gt;"&lt;/span&gt;&lt;/span&gt; &lt;span class="pl-k"&gt;for&lt;/span&gt; more information about a command.&lt;/pre&gt;&lt;/div&gt;
 &lt;h2&gt;6. 开发&amp;amp;致谢&lt;/h2&gt;
 &lt;p&gt;lsx 基于 &lt;a href="https://github.com/chenjiandongx/pls"&gt;pls&lt;/a&gt; 二次开发，数据源感谢 &lt;a href="https://github.com/jaywcjlove/linux-command"&gt;linux-command&lt;/a&gt;。&lt;/p&gt;
 &lt;p&gt;项目完全开源，欢迎提 issue、PR 或点个 star 支持！&lt;/p&gt;
