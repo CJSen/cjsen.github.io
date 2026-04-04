@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>chjs's blog</title><link>https://chjs.dpdns.org</link><description>chjs的个人小站--但行好事，莫问前程</description><copyright>chjs's blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/48038717?v=4</url><title>avatar</title><link>https://chjs.dpdns.org</link></image><lastBuildDate>Thu, 02 Apr 2026 07:47:16 +0000</lastBuildDate><managingEditor>chjs's blog</managingEditor><ttl>60</ttl><webMaster>chjs's blog</webMaster><item><title>GitHub CLI (gh) 完整中文文档与使用指南</title><link>https://chjs.dpdns.org/post/26.html</link><description>GitHub CLI (gh) 完整中文文档与使用指南
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>chjs's blog</title><link>https://chjs.dpdns.org</link><description>chjs的个人小站--但行好事，莫问前程</description><copyright>chjs's blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/48038717?v=4</url><title>avatar</title><link>https://chjs.dpdns.org</link></image><lastBuildDate>Sat, 04 Apr 2026 16:41:36 +0000</lastBuildDate><managingEditor>chjs's blog</managingEditor><ttl>60</ttl><webMaster>chjs's blog</webMaster><item><title>GitHub CLI (gh) 完整中文文档与使用指南</title><link>https://chjs.dpdns.org/post/26.html</link><description>GitHub CLI (gh) 完整中文文档与使用指南
 
 创建人：chjs
 
@@ -2292,7 +2292,7 @@ Use &lt;span class="pl-s"&gt;&lt;span class="pl-pds"&gt;"&lt;/span&gt;lsx [comma
 &lt;p&gt;随着Gmeek的星星数量逐渐增加，越来越多的人开始使用它，一些问题也逐渐浮出水面，同时，也有一些新功能和特性等待添加，这使我深切感受到了开源项目的魅力。更令人惊喜的是，甚至有来自俄罗斯的朋友帮忙翻译了俄语版本。&lt;/p&gt;
 &lt;p&gt;Gmeek不仅仅是一个技术、编程和创造力的角落，更是记录了我在这个数字世界中的思考和探索的纪录。它见证了我在技术领域的成长，也是我与全球开源社区互动的一个载体。通过这个平台，我能够与世界各地的志同道合者分享我的见解、经验和心得，这无疑是一种难以言表的愉悦与满足。&lt;/p&gt;
 &lt;p&gt;四、博客的未来&lt;br&gt;
-虽然没有什么东西是真正永恒的，但我们可以尽力让自己的博客在这个数字时代中存活更久，成为我们留给世界的一份礼物。让我们珍惜这个数字化的痕迹，让它们在 GitHub 中长寿不衰。&lt;/p&gt;</content:encoded><guid isPermaLink="true">https://chjs.dpdns.org/post/8.html</guid><pubDate>Sun, 27 Apr 2025 07:45:37 +0000</pubDate></item><item><title>我的一些自托管网站～</title><link>https://chjs.dpdns.org/post/7.html</link><description># 我的自托管网站分享
+虽然没有什么东西是真正永恒的，但我们可以尽力让自己的博客在这个数字时代中存活更久，成为我们留给世界的一份礼物。让我们珍惜这个数字化的痕迹，让它们在 GitHub 中长寿不衰。&lt;/p&gt;</content:encoded><guid isPermaLink="true">https://chjs.dpdns.org/post/8.html</guid><pubDate>Sun, 27 Apr 2025 07:45:37 +0000</pubDate></item><item><title>我的自托管网站分享</title><link>https://chjs.dpdns.org/post/7.html</link><description># 我的自托管网站分享
 
 这里记录了一些我自托管的服务，方便自己使用，也欢迎有兴趣的朋友体验。</description><content:encoded>&lt;h1&gt;我的自托管网站分享&lt;/h1&gt;
 &lt;p&gt;这里记录了一些我自托管的服务，方便自己使用，也欢迎有兴趣的朋友体验。&lt;/p&gt;
@@ -2304,7 +2304,7 @@ Use &lt;span class="pl-s"&gt;&lt;span class="pl-pds"&gt;"&lt;/span&gt;lsx [comma
 &lt;hr&gt;
 &lt;h2&gt;🖥️ WebSSH&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://fcwebssh.936668.xyz/" rel="nofollow"&gt;fcwebssh（支持 IPv6）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://fcwebssh.936668.xyz/" rel="nofollow"&gt;&lt;del&gt;fcwebssh（支持 IPv6）&lt;/del&gt;&lt;/a&gt;    服务器忘记续费被关了&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://clwebssh.936668.xyz/" rel="nofollow"&gt;&lt;del&gt;clwebssh&lt;/del&gt;&lt;/a&gt;  服务器资源不足，关闭了。&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://webssh.936668.xyz/" rel="nofollow"&gt;&lt;del&gt;webssh&lt;/del&gt;&lt;/a&gt; serv00服务器被封啦～&lt;/li&gt;
 &lt;/ul&gt;
@@ -2318,6 +2318,7 @@ Use &lt;span class="pl-s"&gt;&lt;span class="pl-pds"&gt;"&lt;/span&gt;lsx [comma
 &lt;li&gt;&lt;a href="https://minichat.936668.xyz/" rel="nofollow"&gt;MiniChat&lt;/a&gt; — 开源隐私聊天室&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://gemini-balance.936668.xyz/" rel="nofollow"&gt;Gemini-Balance&lt;/a&gt; -- gemini均衡代理&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://cf-imgbed.936668.xyz/" rel="nofollow"&gt;cf-imgbed&lt;/a&gt; -- 基于cf搭建的图床～&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://substracker.936668.xyz/" rel="nofollow"&gt;subsTracker&lt;/a&gt; -- 基于cf搭建一个订阅管理系统～&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;h2&gt;🔥 阅后即焚&lt;/h2&gt;
