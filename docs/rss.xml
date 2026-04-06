@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>chjs's blog</title><link>https://chjs.dpdns.org</link><description>chjs的个人小站--但行好事，莫问前程</description><copyright>chjs's blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/48038717?v=4</url><title>avatar</title><link>https://chjs.dpdns.org</link></image><lastBuildDate>Mon, 06 Apr 2026 11:08:00 +0000</lastBuildDate><managingEditor>chjs's blog</managingEditor><ttl>60</ttl><webMaster>chjs's blog</webMaster><item><title>test-light2</title><link>https://chjs.dpdns.org/post/30.html</link><description># 一次 vibe-coding 的不完全体验
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>chjs's blog</title><link>https://chjs.dpdns.org</link><description>chjs的个人小站--但行好事，莫问前程</description><copyright>chjs's blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/48038717?v=4</url><title>avatar</title><link>https://chjs.dpdns.org</link></image><lastBuildDate>Mon, 06 Apr 2026 11:12:31 +0000</lastBuildDate><managingEditor>chjs's blog</managingEditor><ttl>60</ttl><webMaster>chjs's blog</webMaster><item><title>test-light2</title><link>https://chjs.dpdns.org/post/30.html</link><description># 一次 vibe-coding 的不完全体验
 
 ## 前言
 
@@ -165,7 +165,7 @@
 &lt;p&gt;感谢&lt;a href="https://github.com/Meekdai/Gmeek"&gt;Gmeek&lt;/a&gt;的所有开发者，有这么好用简单的一个博客&lt;/p&gt;
 &lt;p&gt;感谢Linux.do站的@冰 佬提供的公益站，本次vibe coding 基本全程使用。&lt;/p&gt;
 &lt;p&gt;感谢opencode，本次vibe coding全程基于opencode，和其提供的免费模型，在冰佬公益站崩了的时候顶了上去。&lt;/p&gt;
-</content:encoded><guid isPermaLink="true">https://chjs.dpdns.org/post/29.html</guid><pubDate>Mon, 06 Apr 2026 11:01:21 +0000</pubDate></item><item><title>一次vibe-coding的不完全体验</title><link>https://chjs.dpdns.org/post/28.html</link><description># 一次 vibe-coding 的不完全体验
+</content:encoded><guid isPermaLink="true">https://chjs.dpdns.org/post/29.html</guid><pubDate>Mon, 06 Apr 2026 11:01:21 +0000</pubDate></item><item><title>一次 vibe-coding 的不完全体验</title><link>https://chjs.dpdns.org/post/28.html</link><description># 一次 vibe-coding 的不完全体验
 
 ## 前言
 
@@ -181,7 +181,7 @@
 &lt;p&gt;所以就有了一个“本地编辑，再推送”的想法。说实话，这个想法我已经有很久了，但一直没有付诸实践。回头看，这个仓库早在 25 年 7 月就创建了，拖了半年多，才算真正开始。&lt;/p&gt;
 &lt;p&gt;在短视频和各种 vibe coding 教程的冲击下，我也确实学到不少东西。最开始我没有急着让 AI 写代码，而是先用 &lt;code class="notranslate"&gt;ima&lt;/code&gt; 的任务模式做了一轮调研，产出了 &lt;a href="https://ima.qq.com/mission-report?reportId=Cjk2OWQwYmNmODJkZGM2OGE3NmM2OGIzZTMxMTBhZTZmYmIxMTBfdXUzdG1mXzE3NzUyODc1NDQ0NDA" rel="nofollow"&gt;《Gmeek博客本地化管理方案：桌面应用与命令行工具设计与对比》&lt;/a&gt; | &lt;a href="https://github.com/CJSen/igmeek/blob/main/docs/gmeek-need-doc.md"&gt;GitHub 链接&lt;/a&gt;。现在回头看，这一步很重要。因为一旦你一开始就说“给我做个 Gmeek 的本地工具”，后面很容易一路滑到功能堆砌里去。相反，先把痛点写清楚，后面很多判断都会轻一些。&lt;/p&gt;
 &lt;p&gt;&lt;code class="notranslate"&gt;ima&lt;/code&gt; 在这里做的不是直接给答案，而是帮我把零散的不满整理成了一份能继续讨论的文档。最后沉淀下来的就是 &lt;code class="notranslate"&gt;docs/gmeek-need-doc.md&lt;/code&gt;。里面先把现有工作流的痛点拆开，再去比较桌面应用和命令行工具两条路线。等这份文档出来以后，事情才算真正从“我觉得不方便”变成了“我知道我到底想解决什么”。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://raw.githubusercontent.com/CJSen/cjsen.github.io/main/static/images/igmeek/ima-chat.png" target="_blank"&gt;&lt;img src="https://raw.githubusercontent.com/CJSen/cjsen.github.io/main/static/images/igmeek/ima-chat.png" alt="ima 调研过程截图" width="360"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/CJSen/cjsen.github.io/main/static/images/igmeek/ima-chat.png"&gt;&lt;img width="360" alt="ima 调研过程截图" src="https://raw.githubusercontent.com/CJSen/cjsen.github.io/main/static/images/igmeek/ima-chat.png" style="max-width: 100%;"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;code class="notranslate"&gt;ima&lt;/code&gt; 调研过程（点击可查看大图）&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -193,7 +193,7 @@
 &lt;p&gt;中间还有一个比较关键的分歧：到底做不做“管理”。我曾经想过，既然 Gmeek 产物里会自动生成一个 &lt;code class="notranslate"&gt;backup&lt;/code&gt; 文件夹，里面保存了所有已发布文章的 &lt;code class="notranslate"&gt;.md&lt;/code&gt; 文件，那是不是可以强绑定仓库，依托 Git 顺手做版本管理。但最后脑暴下来，还是把路线收住了：做一个适配 Gmeek、但本质上更通用的 issue 管理工具，不做额外的版本管理，简单最好。&lt;/p&gt;
 &lt;p&gt;后来落出来的 &lt;code class="notranslate"&gt;spec&lt;/code&gt; 很能说明这个阶段的作用。比如第一版不做 &lt;code class="notranslate"&gt;publish&lt;/code&gt; 独立命令、不做 &lt;code class="notranslate"&gt;diff&lt;/code&gt;、不做冲突合并、不做增量同步、不做图片上传，也不做桌面应用。你会发现，这些“不做”比“要做什么”更重要。因为一旦这些边界被写下来，后面的实现就不会一直被新想法拖着走。（&lt;a href="https://github.com/CJSen/igmeek/tree/main/docs/superpowers"&gt;superpowers 相关产出&lt;/a&gt;）&lt;/p&gt;
 &lt;p&gt;我也越来越明显地感觉到，所谓 vibe coding，如果没有前面的收敛流程，其实很容易把“表达得像需求”误当成“已经想清楚需求”。&lt;code class="notranslate"&gt;superpowers&lt;/code&gt; 在这里更像一个会不断追问的流程框架，而不是一个直接产出结果的捷径。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://raw.githubusercontent.com/CJSen/cjsen.github.io/main/static/images/igmeek/surpow-design.png" target="_blank"&gt;&lt;img src="https://raw.githubusercontent.com/CJSen/cjsen.github.io/main/static/images/igmeek/surpow-design.png" alt="superpowers 设计稿截图" width="720"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/CJSen/cjsen.github.io/main/static/images/igmeek/surpow-design.png"&gt;&lt;img width="720" alt="superpowers 设计稿截图" src="https://raw.githubusercontent.com/CJSen/cjsen.github.io/main/static/images/igmeek/surpow-design.png" style="max-width: 100%;"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;设计收敛阶段的文档产物（点击可查看大图）&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -208,7 +208,7 @@
 &lt;blockquote&gt;
 &lt;p&gt;Tips：vibe coding 很容易遇到上下文爆掉的问题。虽然 TUI IDE 通常会自动处理，但我还是建议经常让它总结当前对话、生成 history 文件，然后新开一个对话载入文件继续处理。另外，不同任务尽量拆到不同对话里做，会更稳一些。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;a href="https://raw.githubusercontent.com/CJSen/cjsen.github.io/main/static/images/igmeek/igmeek.png" target="_blank"&gt;&lt;img src="https://raw.githubusercontent.com/CJSen/cjsen.github.io/main/static/images/igmeek/igmeek.png" alt="igmeek CLI 截图" width="360"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/CJSen/cjsen.github.io/main/static/images/igmeek/igmeek.png"&gt;&lt;img width="360" alt="igmeek CLI 截图" src="https://raw.githubusercontent.com/CJSen/cjsen.github.io/main/static/images/igmeek/igmeek.png" style="max-width: 100%;"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;第一版 CLI 已经成型（点击可查看大图）&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -223,11 +223,11 @@
 &lt;h2&gt;最后一公里，是测试把想象打回现实&lt;/h2&gt;
 &lt;p&gt;再往后，项目进入了我很喜欢、也很容易被忽略的一段：测试。不是那种“跑一下单测，看到绿就收工”的测试，而是开始认真写手工测试清单、反馈模板，甚至专门为 worktree 分支准备测试材料。&lt;/p&gt;
 &lt;p&gt;其实测试也是我一直很头痛的问题。不过到了 AI 时代，这件事也被大幅简化了，有时候真的只需要几句话，就能先把一份像样的检查清单搭出来。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://raw.githubusercontent.com/CJSen/cjsen.github.io/main/static/images/igmeek/test-list.png" target="_blank"&gt;&lt;img src="https://raw.githubusercontent.com/CJSen/cjsen.github.io/main/static/images/igmeek/test-list.png" alt="手工测试清单截图" width="360"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/CJSen/cjsen.github.io/main/static/images/igmeek/test-list.png"&gt;&lt;img width="360" alt="手工测试清单截图" src="https://raw.githubusercontent.com/CJSen/cjsen.github.io/main/static/images/igmeek/test-list.png" style="max-width: 100%;"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;手工测试清单（点击可查看大图）&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;a href="https://raw.githubusercontent.com/CJSen/cjsen.github.io/main/static/images/igmeek/test-img.png" target="_blank"&gt;&lt;img src="https://raw.githubusercontent.com/CJSen/cjsen.github.io/main/static/images/igmeek/test-img.png" alt="测试素材与结果记录截图" width="360"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/CJSen/cjsen.github.io/main/static/images/igmeek/test-img.png"&gt;&lt;img width="360" alt="测试素材与结果记录截图" src="https://raw.githubusercontent.com/CJSen/cjsen.github.io/main/static/images/igmeek/test-img.png" style="max-width: 100%;"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;测试素材与结果记录（点击可查看大图）&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -247,7 +247,8 @@
 &lt;h2&gt;致谢&lt;/h2&gt;
 &lt;p&gt;感谢&lt;a href="https://github.com/Meekdai/Gmeek"&gt;Gmeek&lt;/a&gt;的所有开发者，有这么好用简单的一个博客&lt;/p&gt;
 &lt;p&gt;感谢Linux.do站的@冰 佬提供的公益站，本次vibe coding 基本全程使用。&lt;/p&gt;
-&lt;p&gt;感谢opencode，本次vibe coding全程基于opencode，和其提供的免费模型，在冰佬公益站崩了的时候顶了上去。&lt;/p&gt;</content:encoded><guid isPermaLink="true">https://chjs.dpdns.org/post/28.html</guid><pubDate>Mon, 06 Apr 2026 10:53:54 +0000</pubDate></item><item><title>test_igmeek</title><link>https://chjs.dpdns.org/post/27.html</link><description>## 测试一下igmeek的真实能力。</description><content:encoded>&lt;h2&gt;测试一下igmeek的真实能力。&lt;/h2&gt;
+&lt;p&gt;感谢opencode，本次vibe coding全程基于opencode，和其提供的免费模型，在冰佬公益站崩了的时候顶了上去。&lt;/p&gt;
+</content:encoded><guid isPermaLink="true">https://chjs.dpdns.org/post/28.html</guid><pubDate>Mon, 06 Apr 2026 10:53:54 +0000</pubDate></item><item><title>test_igmeek</title><link>https://chjs.dpdns.org/post/27.html</link><description>## 测试一下igmeek的真实能力。</description><content:encoded>&lt;h2&gt;测试一下igmeek的真实能力。&lt;/h2&gt;
 &lt;p&gt;直接添加一个issue试试&lt;/p&gt;</content:encoded><guid isPermaLink="true">https://chjs.dpdns.org/post/27.html</guid><pubDate>Sun, 05 Apr 2026 10:42:57 +0000</pubDate></item><item><title>GitHub CLI (gh) 完整中文文档与使用指南</title><link>https://chjs.dpdns.org/post/26.html</link><description>GitHub CLI (gh) 完整中文文档与使用指南
 
 创建人：chjs

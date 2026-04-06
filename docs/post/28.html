@@ -15,7 +15,7 @@
 ## 前言
 
 这篇文章不是教程，也不是那种“我说一句话，AI 就把项目写完了”的展示文。">
-<meta property="og:title" content="一次vibe-coding的不完全体验">
+<meta property="og:title" content="一次 vibe-coding 的不完全体验">
 <meta property="og:description" content="# 一次 vibe-coding 的不完全体验
 
 ## 前言
@@ -24,7 +24,7 @@
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://chjs.dpdns.org/post/28.html">
 <meta property="og:image" content="https://avatars.githubusercontent.com/u/48038717?v=4">
-<title>一次vibe-coding的不完全体验</title>
+<title>一次 vibe-coding 的不完全体验</title>
 
 
 
@@ -57,7 +57,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 
 <body>
     <div id="header">
-<h1 class="postTitle">一次vibe-coding的不完全体验</h1>
+<h1 class="postTitle">一次 vibe-coding 的不完全体验</h1>
 <div class="title-right">
     <a href="https://chjs.dpdns.org" id="buttonHome" class="btn btn-invisible circle" title="首页">
         <svg class="octicon" width="16" height="16">
@@ -93,7 +93,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <p>所以就有了一个“本地编辑，再推送”的想法。说实话，这个想法我已经有很久了，但一直没有付诸实践。回头看，这个仓库早在 25 年 7 月就创建了，拖了半年多，才算真正开始。</p>
 <p>在短视频和各种 vibe coding 教程的冲击下，我也确实学到不少东西。最开始我没有急着让 AI 写代码，而是先用 <code class="notranslate">ima</code> 的任务模式做了一轮调研，产出了 <a href="https://ima.qq.com/mission-report?reportId=Cjk2OWQwYmNmODJkZGM2OGE3NmM2OGIzZTMxMTBhZTZmYmIxMTBfdXUzdG1mXzE3NzUyODc1NDQ0NDA" rel="nofollow">《Gmeek博客本地化管理方案：桌面应用与命令行工具设计与对比》</a> | <a href="https://github.com/CJSen/igmeek/blob/main/docs/gmeek-need-doc.md">GitHub 链接</a>。现在回头看，这一步很重要。因为一旦你一开始就说“给我做个 Gmeek 的本地工具”，后面很容易一路滑到功能堆砌里去。相反，先把痛点写清楚，后面很多判断都会轻一些。</p>
 <p><code class="notranslate">ima</code> 在这里做的不是直接给答案，而是帮我把零散的不满整理成了一份能继续讨论的文档。最后沉淀下来的就是 <code class="notranslate">docs/gmeek-need-doc.md</code>。里面先把现有工作流的痛点拆开，再去比较桌面应用和命令行工具两条路线。等这份文档出来以后，事情才算真正从“我觉得不方便”变成了“我知道我到底想解决什么”。</p>
-<p><a href="https://raw.githubusercontent.com/CJSen/cjsen.github.io/main/static/images/igmeek/ima-chat.png" target="_blank"><img src="https://raw.githubusercontent.com/CJSen/cjsen.github.io/main/static/images/igmeek/ima-chat.png" alt="ima 调研过程截图" width="360"></a></p>
+<p><a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/CJSen/cjsen.github.io/main/static/images/igmeek/ima-chat.png"><img width="360" alt="ima 调研过程截图" src="https://raw.githubusercontent.com/CJSen/cjsen.github.io/main/static/images/igmeek/ima-chat.png" style="max-width: 100%;"></a></p>
 <blockquote>
 <p><code class="notranslate">ima</code> 调研过程（点击可查看大图）</p>
 </blockquote>
@@ -105,7 +105,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <p>中间还有一个比较关键的分歧：到底做不做“管理”。我曾经想过，既然 Gmeek 产物里会自动生成一个 <code class="notranslate">backup</code> 文件夹，里面保存了所有已发布文章的 <code class="notranslate">.md</code> 文件，那是不是可以强绑定仓库，依托 Git 顺手做版本管理。但最后脑暴下来，还是把路线收住了：做一个适配 Gmeek、但本质上更通用的 issue 管理工具，不做额外的版本管理，简单最好。</p>
 <p>后来落出来的 <code class="notranslate">spec</code> 很能说明这个阶段的作用。比如第一版不做 <code class="notranslate">publish</code> 独立命令、不做 <code class="notranslate">diff</code>、不做冲突合并、不做增量同步、不做图片上传，也不做桌面应用。你会发现，这些“不做”比“要做什么”更重要。因为一旦这些边界被写下来，后面的实现就不会一直被新想法拖着走。（<a href="https://github.com/CJSen/igmeek/tree/main/docs/superpowers">superpowers 相关产出</a>）</p>
 <p>我也越来越明显地感觉到，所谓 vibe coding，如果没有前面的收敛流程，其实很容易把“表达得像需求”误当成“已经想清楚需求”。<code class="notranslate">superpowers</code> 在这里更像一个会不断追问的流程框架，而不是一个直接产出结果的捷径。</p>
-<p><a href="https://raw.githubusercontent.com/CJSen/cjsen.github.io/main/static/images/igmeek/surpow-design.png" target="_blank"><img src="https://raw.githubusercontent.com/CJSen/cjsen.github.io/main/static/images/igmeek/surpow-design.png" alt="superpowers 设计稿截图" width="720"></a></p>
+<p><a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/CJSen/cjsen.github.io/main/static/images/igmeek/surpow-design.png"><img width="720" alt="superpowers 设计稿截图" src="https://raw.githubusercontent.com/CJSen/cjsen.github.io/main/static/images/igmeek/surpow-design.png" style="max-width: 100%;"></a></p>
 <blockquote>
 <p>设计收敛阶段的文档产物（点击可查看大图）</p>
 </blockquote>
@@ -120,7 +120,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <blockquote>
 <p>Tips：vibe coding 很容易遇到上下文爆掉的问题。虽然 TUI IDE 通常会自动处理，但我还是建议经常让它总结当前对话、生成 history 文件，然后新开一个对话载入文件继续处理。另外，不同任务尽量拆到不同对话里做，会更稳一些。</p>
 </blockquote>
-<p><a href="https://raw.githubusercontent.com/CJSen/cjsen.github.io/main/static/images/igmeek/igmeek.png" target="_blank"><img src="https://raw.githubusercontent.com/CJSen/cjsen.github.io/main/static/images/igmeek/igmeek.png" alt="igmeek CLI 截图" width="360"></a></p>
+<p><a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/CJSen/cjsen.github.io/main/static/images/igmeek/igmeek.png"><img width="360" alt="igmeek CLI 截图" src="https://raw.githubusercontent.com/CJSen/cjsen.github.io/main/static/images/igmeek/igmeek.png" style="max-width: 100%;"></a></p>
 <blockquote>
 <p>第一版 CLI 已经成型（点击可查看大图）</p>
 </blockquote>
@@ -135,11 +135,11 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <h2>最后一公里，是测试把想象打回现实</h2>
 <p>再往后，项目进入了我很喜欢、也很容易被忽略的一段：测试。不是那种“跑一下单测，看到绿就收工”的测试，而是开始认真写手工测试清单、反馈模板，甚至专门为 worktree 分支准备测试材料。</p>
 <p>其实测试也是我一直很头痛的问题。不过到了 AI 时代，这件事也被大幅简化了，有时候真的只需要几句话，就能先把一份像样的检查清单搭出来。</p>
-<p><a href="https://raw.githubusercontent.com/CJSen/cjsen.github.io/main/static/images/igmeek/test-list.png" target="_blank"><img src="https://raw.githubusercontent.com/CJSen/cjsen.github.io/main/static/images/igmeek/test-list.png" alt="手工测试清单截图" width="360"></a></p>
+<p><a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/CJSen/cjsen.github.io/main/static/images/igmeek/test-list.png"><img width="360" alt="手工测试清单截图" src="https://raw.githubusercontent.com/CJSen/cjsen.github.io/main/static/images/igmeek/test-list.png" style="max-width: 100%;"></a></p>
 <blockquote>
 <p>手工测试清单（点击可查看大图）</p>
 </blockquote>
-<p><a href="https://raw.githubusercontent.com/CJSen/cjsen.github.io/main/static/images/igmeek/test-img.png" target="_blank"><img src="https://raw.githubusercontent.com/CJSen/cjsen.github.io/main/static/images/igmeek/test-img.png" alt="测试素材与结果记录截图" width="360"></a></p>
+<p><a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/CJSen/cjsen.github.io/main/static/images/igmeek/test-img.png"><img width="360" alt="测试素材与结果记录截图" src="https://raw.githubusercontent.com/CJSen/cjsen.github.io/main/static/images/igmeek/test-img.png" style="max-width: 100%;"></a></p>
 <blockquote>
 <p>测试素材与结果记录（点击可查看大图）</p>
 </blockquote>
@@ -159,7 +159,8 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <h2>致谢</h2>
 <p>感谢<a href="https://github.com/Meekdai/Gmeek">Gmeek</a>的所有开发者，有这么好用简单的一个博客</p>
 <p>感谢Linux.do站的@冰 佬提供的公益站，本次vibe coding 基本全程使用。</p>
-<p>感谢opencode，本次vibe coding全程基于opencode，和其提供的免费模型，在冰佬公益站崩了的时候顶了上去。</p></div>
+<p>感谢opencode，本次vibe coding全程基于opencode，和其提供的免费模型，在冰佬公益站崩了的时候顶了上去。</p>
+</div>
 <div style="font-size:small;margin-top:8px;float:right;">❤️ 转载文章请注明出处，谢谢！❤️</div>
 
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
