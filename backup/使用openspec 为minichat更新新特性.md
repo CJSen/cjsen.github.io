@@ -25,7 +25,7 @@ npm install -g @fission-ai/openspec@latest
 
 在项目根目录运行 `openspec init`，按照交互完成配置后，会在项目里生成若干 OpenSpec 相关目录和文件。我选择的编辑器是 OpenCode。下面是初始化后的界面截图：
 
-![1776778113220](https://github.com/CJSen/cjsen.github.io/blob/main/backup/image/%E4%BD%BF%E7%94%A8openspec%E4%B8%BAminichat%E6%9B%B4%E6%96%B0%E6%96%B0%E7%89%B9%E6%80%A7/1776778113220.png)
+![1776778113220](https://raw.githubusercontent.com/CJSen/cjsen.github.io/main/backup/image/使用openspec为minichat更新新特性/1776778113220.png)
 
 2. 探索流程的选择
 
@@ -38,7 +38,7 @@ npm install -g @fission-ai/openspec@latest
 
 在和 AI 交流后，我决定从 `/openspec-explore` 开始：
 
-![1776779840619](https://github.com/CJSen/cjsen.github.io/blob/main/backup/image/%E4%BD%BF%E7%94%A8openspec%E4%B8%BAminichat%E6%9B%B4%E6%96%B0%E6%96%B0%E7%89%B9%E6%80%A7/1776779840619.png)
+![1776779840619](https://raw.githubusercontent.com/CJSen/cjsen.github.io/main/backup/image/使用openspec为minichat更新新特性/1776779840619.png)
 
 3. 我用的探索 prompt（示例）
 
@@ -50,21 +50,21 @@ npm install -g @fission-ai/openspec@latest
 - 断开连接后服务端如何处理
 - 前端是否有重连逻辑
 ```
-![1776834754070](https://github.com/CJSen/cjsen.github.io/blob/main/backup/image/%E4%BD%BF%E7%94%A8openspec%E4%B8%BAminichat%E6%9B%B4%E6%96%B0%E6%96%B0%E7%89%B9%E6%80%A7/1776834754070.png)
+![1776834754070](https://raw.githubusercontent.com/CJSen/cjsen.github.io/main/backup/image/使用openspec为minichat更新新特性/1776834754070.png)
 （中间的思考与输出就不截图了,贴个开头和结果）
 
 4. 进入 `/opsx-propose`
 
 在有了探索上下文后，进入 `/opsx-propose`，OpenSpec 会生成对应的策划与约束文件，通常会产生一个 `tasks.md`，把接下来的工作分成若干可执行的步骤：
 
-![1776835023459](https://github.com/CJSen/cjsen.github.io/blob/main/backup/image/%E4%BD%BF%E7%94%A8openspec%E4%B8%BAminichat%E6%9B%B4%E6%96%B0%E6%96%B0%E7%89%B9%E6%80%A7/1776835023459.png)
-![1776835038485](https://github.com/CJSen/cjsen.github.io/blob/main/backup/image/%E4%BD%BF%E7%94%A8openspec%E4%B8%BAminichat%E6%9B%B4%E6%96%B0%E6%96%B0%E7%89%B9%E6%80%A7/1776835038485.png)
+![1776835023459](https://raw.githubusercontent.com/CJSen/cjsen.github.io/main/backup/image/使用openspec为minichat更新新特性/1776835023459.png)
+![1776835038485](https://raw.githubusercontent.com/CJSen/cjsen.github.io/main/backup/image/使用openspec为minichat更新新特性/1776835038485.png)
 
 5. `/opsx-apply`：按任务执行
 
 按 `tasks.md` 的步骤交给 AI 去执行，我这儿是边看边改，期间喝了杯 82 年的咖啡，等待 AI 输出。
 
-![1776835277852](https://github.com/CJSen/cjsen.github.io/blob/main/backup/image/%E4%BD%BF%E7%94%A8openspec%E4%B8%BAminichat%E6%9B%B4%E6%96%B0%E6%96%B0%E7%89%B9%E6%80%A7/1776835277852.png)
+![1776835277852](https://raw.githubusercontent.com/CJSen/cjsen.github.io/main/backup/image/使用openspec为minichat更新新特性/1776835277852.png)
 
 6. 测试
 
@@ -78,10 +78,10 @@ npm install -g @fission-ai/openspec@latest
 
 完成后使用 `/opsx-archive` 将本次变更归档，保存完整的工作内容和文件：
 
-![1776836023105](https://github.com/CJSen/cjsen.github.io/blob/main/backup/image/%E4%BD%BF%E7%94%A8openspec%E4%B8%BAminichat%E6%9B%B4%E6%96%B0%E6%96%B0%E7%89%B9%E6%80%A7/1776836023105.png)
+![1776836023105](https://raw.githubusercontent.com/CJSen/cjsen.github.io/main/backup/image/使用openspec为minichat更新新特性/1776836023105.png)
 
 总结：
 
 一次简短的 OpenSpec 流程体验结束。通过这次流程，我把 minichat 的断线重连功能强化了（例如在切换节点或 Wi‑Fi 时的重连策略有所改善），同时对整个人机协作的开发流程有了更直观的认识。
 
-![1776836197632](https://github.com/CJSen/cjsen.github.io/blob/main/backup/image/%E4%BD%BF%E7%94%A8openspec%E4%B8%BAminichat%E6%9B%B4%E6%96%B0%E6%96%B0%E7%89%B9%E6%80%A7/1776836197632.png)
+![1776836197632](https://raw.githubusercontent.com/CJSen/cjsen.github.io/main/backup/image/使用openspec为minichat更新新特性/1776836197632.png)
