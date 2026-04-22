@@ -1,5 +1,74 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>chjs's blog</title><link>https://chjs.dpdns.org</link><description>chjs的个人小站--但行好事，莫问前程</description><copyright>chjs's blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/48038717?v=4</url><title>avatar</title><link>https://chjs.dpdns.org</link></image><lastBuildDate>Tue, 07 Apr 2026 04:56:46 +0000</lastBuildDate><managingEditor>chjs's blog</managingEditor><ttl>60</ttl><webMaster>chjs's blog</webMaster><item><title>热门的桌面客户端技术讨论-转载</title><link>https://chjs.dpdns.org/post/31.html</link><description># 讨论一下 Wails、Tauri、Flutter、Electron 这几种热门的桌面客户端技术栈
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>chjs's blog</title><link>https://chjs.dpdns.org</link><description>chjs的个人小站--但行好事，莫问前程</description><copyright>chjs's blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/48038717?v=4</url><title>avatar</title><link>https://chjs.dpdns.org</link></image><lastBuildDate>Wed, 22 Apr 2026 06:06:44 +0000</lastBuildDate><managingEditor>chjs's blog</managingEditor><ttl>60</ttl><webMaster>chjs's blog</webMaster><item><title>使用openspec 为minichat更新新特性</title><link>https://chjs.dpdns.org/post/32.html</link><description>记录一次使用 OpenSpec 为 minichat 增加特性的实践笔记
+
+minichat 是我二开的一个私密聊天室，之前给它加了图片和表情发送功能。</description><content:encoded>&lt;p&gt;记录一次使用 OpenSpec 为 minichat 增加特性的实践笔记&lt;/p&gt;
+&lt;p&gt;minichat 是我二开的一个私密聊天室，之前给它加了图片和表情发送功能。但因为使用很少，基本没有用户反馈，所以也就很久没更新。&lt;/p&gt;
+&lt;p&gt;最近再次使用时发现了两个问题：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;发送图片后，查看大图时仍显示缩略图，导致大图无法看清；&lt;/li&gt;
+&lt;li&gt;切换网络时容易断线（客户端不保留聊天数据且退出后清空），重连体验差，影响使用感受。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;计划对它做一次小更新。第一个问题已经悄悄修好了（忘记记录了），第二个问题我打算借此机会体验一下 OpenSpec 的工作流并记录过程。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;关于 OpenSpec&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/Fission-AI/OpenSpec"&gt;OpenSpec&lt;/a&gt; 是一个面向 AI 编码助手的规范驱动开发框架，支持 Cursor、Codex、Claude Code 等工具。相比其他工具，它通过轻量级的规范流程，让人和 AI 在编写代码前就对要做的事情达成一致，适合在已有项目上渐进式增加新功能。&lt;/p&gt;
+&lt;p&gt;安装：&lt;/p&gt;
+&lt;div class="highlight highlight-source-shell"&gt;&lt;pre class="notranslate"&gt;npm install -g @fission-ai/openspec@latest&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;使用过程（我个人实践的步骤）&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;初始化&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;在项目根目录运行 &lt;code class="notranslate"&gt;openspec init&lt;/code&gt;，按照交互完成配置后，会在项目里生成若干 OpenSpec 相关目录和文件。我选择的编辑器是 OpenCode。下面是初始化后的界面截图：&lt;/p&gt;
+&lt;p&gt;&lt;a target="_blank" rel="noopener noreferrer" href="https://github.com/CJSen/cjsen.github.io/blob/main/backup/image/%E4%BD%BF%E7%94%A8openspec%E4%B8%BAminichat%E6%9B%B4%E6%96%B0%E6%96%B0%E7%89%B9%E6%80%A7/1776778113220.png"&gt;&lt;img src="https://github.com/CJSen/cjsen.github.io/blob/main/backup/image/%E4%BD%BF%E7%94%A8openspec%E4%B8%BAminichat%E6%9B%B4%E6%96%B0%E6%96%B0%E7%89%B9%E6%80%A7/1776778113220.png" alt="1776778113220" style="max-width: 100%;"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;ol start="2"&gt;
+&lt;li&gt;探索流程的选择&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;使用中有个疑问：应该从 &lt;code class="notranslate"&gt;/openspec-explore&lt;/code&gt; 开始，还是直接从 &lt;code class="notranslate"&gt;/openspec-propose&lt;/code&gt; 开始？&lt;/p&gt;
+&lt;p&gt;简要区分：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class="notranslate"&gt;/openspec-explore&lt;/code&gt;：当你对项目或某个功能还不熟，需要先“读懂”代码和现状时使用，适合接手陌生项目、排查实现细节、评估改动影响等；&lt;/li&gt;
+&lt;li&gt;&lt;code class="notranslate"&gt;/openspec-propose&lt;/code&gt;：在明确目标后用于提出功能升级、架构调整、API 改造或新增能力等。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;在和 AI 交流后，我决定从 &lt;code class="notranslate"&gt;/openspec-explore&lt;/code&gt; 开始：&lt;/p&gt;
+&lt;p&gt;&lt;a target="_blank" rel="noopener noreferrer" href="https://github.com/CJSen/cjsen.github.io/blob/main/backup/image/%E4%BD%BF%E7%94%A8openspec%E4%B8%BAminichat%E6%9B%B4%E6%96%B0%E6%96%B0%E7%89%B9%E6%80%A7/1776779840619.png"&gt;&lt;img src="https://github.com/CJSen/cjsen.github.io/blob/main/backup/image/%E4%BD%BF%E7%94%A8openspec%E4%B8%BAminichat%E6%9B%B4%E6%96%B0%E6%96%B0%E7%89%B9%E6%80%A7/1776779840619.png" alt="1776779840619" style="max-width: 100%;"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;ol start="3"&gt;
+&lt;li&gt;我用的探索 prompt（示例）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre class="notranslate"&gt;&lt;code class="notranslate"&gt;/opsx-explore minichat 项目中，聊天室创建/连接/断线处理机制是如何实现的？包括：
+- 使用的协议
+- 房间/会话如何存储
+- 如何保证隐私
+- 断开连接后服务端如何处理
+- 前端是否有重连逻辑
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;a target="_blank" rel="noopener noreferrer" href="https://github.com/CJSen/cjsen.github.io/blob/main/backup/image/%E4%BD%BF%E7%94%A8openspec%E4%B8%BAminichat%E6%9B%B4%E6%96%B0%E6%96%B0%E7%89%B9%E6%80%A7/1776834754070.png"&gt;&lt;img src="https://github.com/CJSen/cjsen.github.io/blob/main/backup/image/%E4%BD%BF%E7%94%A8openspec%E4%B8%BAminichat%E6%9B%B4%E6%96%B0%E6%96%B0%E7%89%B9%E6%80%A7/1776834754070.png" alt="1776834754070" style="max-width: 100%;"&gt;&lt;/a&gt;&lt;br&gt;
+（中间的思考与输出就不截图了,贴个开头和结果）&lt;/p&gt;
+&lt;ol start="4"&gt;
+&lt;li&gt;进入 &lt;code class="notranslate"&gt;/opsx-propose&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;在有了探索上下文后，进入 &lt;code class="notranslate"&gt;/opsx-propose&lt;/code&gt;，OpenSpec 会生成对应的策划与约束文件，通常会产生一个 &lt;code class="notranslate"&gt;tasks.md&lt;/code&gt;，把接下来的工作分成若干可执行的步骤：&lt;/p&gt;
+&lt;p&gt;&lt;a target="_blank" rel="noopener noreferrer" href="https://github.com/CJSen/cjsen.github.io/blob/main/backup/image/%E4%BD%BF%E7%94%A8openspec%E4%B8%BAminichat%E6%9B%B4%E6%96%B0%E6%96%B0%E7%89%B9%E6%80%A7/1776835023459.png"&gt;&lt;img src="https://github.com/CJSen/cjsen.github.io/blob/main/backup/image/%E4%BD%BF%E7%94%A8openspec%E4%B8%BAminichat%E6%9B%B4%E6%96%B0%E6%96%B0%E7%89%B9%E6%80%A7/1776835023459.png" alt="1776835023459" style="max-width: 100%;"&gt;&lt;/a&gt;&lt;br&gt;
+&lt;a target="_blank" rel="noopener noreferrer" href="https://github.com/CJSen/cjsen.github.io/blob/main/backup/image/%E4%BD%BF%E7%94%A8openspec%E4%B8%BAminichat%E6%9B%B4%E6%96%B0%E6%96%B0%E7%89%B9%E6%80%A7/1776835038485.png"&gt;&lt;img src="https://github.com/CJSen/cjsen.github.io/blob/main/backup/image/%E4%BD%BF%E7%94%A8openspec%E4%B8%BAminichat%E6%9B%B4%E6%96%B0%E6%96%B0%E7%89%B9%E6%80%A7/1776835038485.png" alt="1776835038485" style="max-width: 100%;"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;ol start="5"&gt;
+&lt;li&gt;&lt;code class="notranslate"&gt;/opsx-apply&lt;/code&gt;：按任务执行&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;按 &lt;code class="notranslate"&gt;tasks.md&lt;/code&gt; 的步骤交给 AI 去执行，我这儿是边看边改，期间喝了杯 82 年的咖啡，等待 AI 输出。&lt;/p&gt;
+&lt;p&gt;&lt;a target="_blank" rel="noopener noreferrer" href="https://github.com/CJSen/cjsen.github.io/blob/main/backup/image/%E4%BD%BF%E7%94%A8openspec%E4%B8%BAminichat%E6%9B%B4%E6%96%B0%E6%96%B0%E7%89%B9%E6%80%A7/1776835277852.png"&gt;&lt;img src="https://github.com/CJSen/cjsen.github.io/blob/main/backup/image/%E4%BD%BF%E7%94%A8openspec%E4%B8%BAminichat%E6%9B%B4%E6%96%B0%E6%96%B0%E7%89%B9%E6%80%A7/1776835277852.png" alt="1776835277852" style="max-width: 100%;"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;ol start="6"&gt;
+&lt;li&gt;测试&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;因为是聊天功能，我主要做了手工测试，验证断线重连逻辑在不同网络切换（例如切换节点、Wi‑Fi 切换）下的表现。&lt;/p&gt;
+&lt;ol start="7"&gt;
+&lt;li&gt;修复与迭代&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;根据测试结果，和 AI 进行了几轮对话，对出现的问题进行了修复和微调（此处略）。&lt;/p&gt;
+&lt;ol start="8"&gt;
+&lt;li&gt;归档&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;完成后使用 &lt;code class="notranslate"&gt;/opsx-archive&lt;/code&gt; 将本次变更归档，保存完整的工作内容和文件：&lt;/p&gt;
+&lt;p&gt;&lt;a target="_blank" rel="noopener noreferrer" href="https://github.com/CJSen/cjsen.github.io/blob/main/backup/image/%E4%BD%BF%E7%94%A8openspec%E4%B8%BAminichat%E6%9B%B4%E6%96%B0%E6%96%B0%E7%89%B9%E6%80%A7/1776836023105.png"&gt;&lt;img src="https://github.com/CJSen/cjsen.github.io/blob/main/backup/image/%E4%BD%BF%E7%94%A8openspec%E4%B8%BAminichat%E6%9B%B4%E6%96%B0%E6%96%B0%E7%89%B9%E6%80%A7/1776836023105.png" alt="1776836023105" style="max-width: 100%;"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;总结：&lt;/p&gt;
+&lt;p&gt;一次简短的 OpenSpec 流程体验结束。通过这次流程，我把 minichat 的断线重连功能强化了（例如在切换节点或 Wi‑Fi 时的重连策略有所改善），同时对整个人机协作的开发流程有了更直观的认识。&lt;/p&gt;
+&lt;p&gt;&lt;a target="_blank" rel="noopener noreferrer" href="https://github.com/CJSen/cjsen.github.io/blob/main/backup/image/%E4%BD%BF%E7%94%A8openspec%E4%B8%BAminichat%E6%9B%B4%E6%96%B0%E6%96%B0%E7%89%B9%E6%80%A7/1776836197632.png"&gt;&lt;img src="https://github.com/CJSen/cjsen.github.io/blob/main/backup/image/%E4%BD%BF%E7%94%A8openspec%E4%B8%BAminichat%E6%9B%B4%E6%96%B0%E6%96%B0%E7%89%B9%E6%80%A7/1776836197632.png" alt="1776836197632" style="max-width: 100%;"&gt;&lt;/a&gt;&lt;/p&gt;</content:encoded><guid isPermaLink="true">https://chjs.dpdns.org/post/32.html</guid><pubDate>Wed, 22 Apr 2026 06:06:17 +0000</pubDate></item><item><title>热门的桌面客户端技术讨论-转载</title><link>https://chjs.dpdns.org/post/31.html</link><description># 讨论一下 Wails、Tauri、Flutter、Electron 这几种热门的桌面客户端技术栈
 
 
 # 宣传主张
