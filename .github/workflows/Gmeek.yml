@@ -46,6 +46,7 @@ jobs:
       - name: Install dependencies
         run: |
           pip install --upgrade pip
+          pip install "lxml==6.1.2"
           pip install -r /opt/Gmeek/requirements.txt
 
       - name: Generate new html
